@@ -119,9 +119,22 @@ This course is for young(ish) profesional developers like me, who feel they dese
 
 It is for Python or JavaScript programmers frustrated by the unstability of their ecosystem,
 
-for students of computer science who want to discover why Lisp still has un-matched alien technology inside.
+for students of computer science who want to discover why Lisp still has un-matched alien technology inside,
 
-It is for your friend or colleague.
+for Clojurists who want to transition quickly to a bare-metal Lisp,
+
+or simply for your friend or colleague.
+
+## How to best use this course if you are already a programmer
+
+If you are a proficient programmer and you want to go to the essentials:
+
+- you can watch the videos at a higher speed: 1.25 or 1.50x
+- try the captions, they're good
+- you can start by the chapter of your choice. Inside a chapter though, we build on previous content (especially in the one about functions)
+- you can leverage the fact that I go with a "code first" approach: show the code damn it, and then explain. So if the code is self-explanatory for you, you can skip the explanations.
+- be sure to have a Lisp editor at hand, the HyperSpec and/or a book reference (CLtL2), the Cookbook and a project idea.
+- be demanding but don't be in a rush.
 
 
 ## TODOs
