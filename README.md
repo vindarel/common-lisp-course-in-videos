@@ -11,7 +11,7 @@
   <a href="https://twitter.com/vindarel"><b> Twitter </b></a> |
   <a href="https://ko-fi.com/vindarel"><b>Buy me a coffee!</b></a>
 
-  <h6> Learn the Lisp language and its ecosystem, become an effective programmer and learn how to write real-world applications. Avoid all the traps that I faced during my journey! </h6>
+  <h4> Learn the Lisp language and its ecosystem, become an effective programmer and learn how to write real-world applications. Avoid all the traps that I faced during my journey! </h4>
 
 </p>
 
@@ -25,9 +25,9 @@ to written resources such as the
 [awesome-cl](https://github.com/CodyReichert/awesome-cl) and my
 [lisp-journey blog](https://lisp-journey.gitlab.io/) but I want to do more.
 
-You can now **learn Common Lisp with my [videos on the Udemy platform](https://www.udemy.com/course/common-lisp-programming/?referralCode=2F3D698BBC4326F94358)**. At the time of writing, I consider it half done (but the chapters there are complete). If you subscribe now, you'll have access to the new content that I'm working on. I truly believe this course to be **the most effective way to learn Common Lisp today**.
+You can now **learn Common Lisp with my [videos on the Udemy platform](https://www.udemy.com/course/common-lisp-programming/?referralCode=2F3D698BBC4326F94358)**. At the time of writing, I consider it half done (but the chapters there are complete). If you subscribe now, you'll have access to the new content that I'm working on. I truly believe this course to be **the most effective way to learn Common Lisp today**. I am genuinely happy to share all that with you.
 
-This course is the result of my experience writing new material, answering questions, and using CL in production© (for "glue" scripts as well as for web apps, used by real clients). I run my own small business [^1].
+This course is the result of my experience writing new material, answering questions, and using CL in production© [^1]. I run my own small business [^2].
 
 *Here's a [40% coupon for up until April, 18th](https://www.udemy.com/course/common-lisp-programming/?couponCode=220418-LISP-FOR-ALL).* *If you are a student, drop me a line for a free link.*
 
@@ -42,7 +42,13 @@ Here's what you'll learn.
 
 *Total learning material: 2h36. Subtitles: english.*
 
-1. Section 1: Getting Started
+0. **Introduction video**
+
+> Short list of features. Companies using Common Lisp. Why this course.
+
+> Everything that was hard to find for me, is presented and explained to you.
+
+1. **Section 1: Getting Started**
 
 1.1. Install SBCL [🆓 free preview]
 
@@ -56,7 +62,7 @@ Here's what you'll learn.
 
 > Portacle allows to get started with a Common Lisp editor in 3 clicks, on Windows, MacOS and Linux. It provides: Emacs, SBCL, Quicklisp (the package manager), SLIME (the Superior Lisp Integration Mode for Emacs) as well as SLY, Git and Magit (the famous Emacs package). If you already know Emacs: you can stop watching at 9'. We first see: what is Portacle and where to get it, what it provides, some custom integrations (M-x create-project, the tree project explorer, company-mode and paredit-mode). Then, we continue with a more in-depth exploration, so you can find your way inside Emacs (buffer management, file management, Lisp code evaluation, how to create and quickload a project, Magit, how to use the help system…).
 
-2. Lisp Basics
+2. **Lisp Basics**
 
 2.1. Lisp syntax and evaluation model [🆓 free preview]
 
@@ -73,7 +79,7 @@ Here's what you'll learn.
 > What we see: if, when, unless, cond, case, the or shortcut, the #+(or) "\*features\*" trick, an example where we load a lispy configuration file.
 
 
-3. All about functions
+3. **All about functions**
 
 3.1. How to create named functions, how to handle all types of arguments [🆓 free preview]
 
@@ -103,6 +109,21 @@ Here's what you'll learn.
 
 > How to write functions that dynamically dispatch on the type of their arguments. What we see (quickly): defmethod, defgeneric (optional).
 
+## Who is this course for
+
+This course is *not* for total newcomers in programming. You should know what variables and functions are.
+
+Lisp newbies are welcome. I introduce Lisp basics (syntax, evaluation model…) to bootstrap you, but it's best if you know what is a language of the Lisp family.
+
+This course is for young(ish) profesional developers like me, who feel they deserve a more fun, comfy, compiled and fast programming language.
+
+It is for Python or JavaScript programmers frustrated by the unstability of their ecosystem,
+
+for students of computer science who want to discover why Lisp still has un-matched alien technology inside.
+
+It is for your friend or colleague.
+
+
 ## TODOs
 
 More content:
@@ -130,8 +151,18 @@ In parallel, I'd like to **create shorter videos on other topics**. I'll see if 
 
 ## Feedback
 
-I would like very much to have your feedback on the course, alongside your background in a few words.
+I would like very much to have your feedback on the course, alongside your background in programming in a few words.
+
+If you want to correct my (cute) accent, be my guest!
+
+## Conclusion
+
+Learn CL *now* and use it *all your life*: code written 30 years ago still runs today O_o
+
+And have fun! Lisp is amazing.
 
 ---
 
-[^1]: I don't earn millions so your support through Udemy helps me and helps consolidate the CL ecosystem. Thank you!
+[^1]: For "glue" scripts as well as for web apps, used by real clients. Here the buzzwords: SOAP and FTP, XML parsing, DB handling, web scraping, Sentry reporting (empty dashboard!), email with Sendgrid, simple books catalogue web app…
+
+[^2]: I don't earn millions so your support through Udemy helps me and helps consolidate the CL ecosystem. Thank you!
