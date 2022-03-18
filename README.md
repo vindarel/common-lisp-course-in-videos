@@ -174,7 +174,6 @@ Learn CL *now* and use it *all your life*: code written 30 years ago still runs 
 
 And have fun! Lisp is amazing.
 
----
 
 [^1]: For "glue" scripts as well as for web apps, used by real clients. Here the buzzwords: SOAP and FTP, XML parsing, DB handling, web scraping, Sentry reporting (empty dashboard!), email with Sendgrid, simple books catalogue web app…
 
