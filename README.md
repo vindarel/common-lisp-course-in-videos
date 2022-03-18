@@ -18,7 +18,7 @@
 Guys and girls, I really like Common Lisp, it is superior to many
 languages out there (hello Python), but learning it isn't as easy as
 it should be. Despite very good books, there aren't many online
-resources, the languages has its peculiarities, the ecosystem is
+resources, the language has its peculiarities, the ecosystem is
 larger than you think but not well structured. I contributed a *lot*
 to written resources such as the
 [Cookbook](https://lispcookbook.github.io/cl-cookbook/),
