@@ -1,7 +1,7 @@
 🕊
 
 <p>
-  <h2 align="center"> Common Lisp Programming </h2>
+  <h2 align="center"> Common Lisp Programming Course </h2>
   <h3 align="center"> Learn Lisp effectively, in videos </h3>
 </p>
 
