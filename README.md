@@ -111,6 +111,21 @@ Here's what you'll learn.
 
 > How to write functions that dynamically dispatch on the type of their arguments. What we see (quickly): defmethod, defgeneric (optional).
 
+4. **Working with projects**
+
+4.1 How to work with an existing project
+
+> What we see: how to load the project thanks to its .asd file, install dependencies, go "in the package", being in a bare bones Lisp REPL or in Emacs and Slime. Appropriate Slime shortcuts. Get a list of the project's dependencies with ASDF programmatically.
+
+4.2. How to create a new project
+
+> What we see: a simple .asd file (flat source tree or a src/ subdirectory), a package definition, two project skeletons.
+
+4.3. What are systems and packages anyways?
+
+> What we see: a recap on systems. The :cl-user and :cl packages. Creating a package without using :cl symbols. Recovering from symbols name conflicts. Understanding that the reader "interns" symbols from what we type. Printing and counting external symbols of a package. Role of in-package. Exporting symbols.
+
+
 ## Who is this course for
 
 This course is *not* for total newcomers in programming. You should know what variables and functions are.
