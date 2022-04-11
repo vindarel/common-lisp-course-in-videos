@@ -81,6 +81,25 @@ Here's what you'll learn.
 > What we see: if, when, unless, cond, case, the or shortcut, the #+(or) "\*features\*" trick, an example where we load a lispy configuration file.
 
 
+3. **Iteration**
+
+3.1 Iterating over lists and vectors [🆓 free preview]
+
+> What we see: LOOP in/across and its various accumulating clauses, dolist, for:for, coerce. PLEASE NOTE: I'm about to publish 3 more videos in this chapter.
+
+3.2 Iterating over a hash-table keys and values
+
+> What we see: 5 ways in 5 minutes to iterate over a hash-table. (NOTE: you don't imagine all the time that it took me to learn and discover these!!)
+
+3.3 Iterating a fixed or infinite number of times
+
+> What we see: dotimes, the same with loop, looping forever and building our first Lisp REPL.
+
+3.4. Loop: high level overview and gotchas
+
+> What we see: the structure of LOOP. Two rules to keep in mind. LOOP smells. We enhance an example from an answer of Advent Of Code 2021.
+
+
 3. **All about functions**
 
 3.1. How to create named functions, how to handle all types of arguments [🆓 free preview]
