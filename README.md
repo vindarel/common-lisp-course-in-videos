@@ -121,6 +121,8 @@ Here's what you'll learn.
 
 > What we see: a simple .asd file (flat source tree or a src/ subdirectory), a package definition, two project skeletons.
 
+As a complement, see this video: [cl-cookieproject demo](https://www.youtube.com/watch?v=XFc513MJjos).
+
 4.3. What are systems and packages anyways?
 
 > What we see: a recap on systems. The :cl-user and :cl packages. Creating a package without using :cl symbols. Recovering from symbols name conflicts. Understanding that the reader "interns" symbols from what we type. Printing and counting external symbols of a package. Role of in-package. Exporting symbols.
