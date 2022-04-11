@@ -85,7 +85,7 @@ Here's what you'll learn.
 
 3.1 Iterating over lists and vectors [🆓 free preview]
 
-> What we see: LOOP in/across and its various accumulating clauses, dolist, for:for, coerce. PLEASE NOTE: I'm about to publish 3 more videos in this chapter.
+> What we see: LOOP in/across and its various accumulating clauses, dolist, for:for, coerce. 
 
 3.2 Iterating over a hash-table keys and values
 
@@ -100,49 +100,49 @@ Here's what you'll learn.
 > What we see: the structure of LOOP. Two rules to keep in mind. LOOP smells. We enhance an example from an answer of Advent Of Code 2021.
 
 
-3. **All about functions**
+4. **All about functions**
 
-3.1. How to create named functions, how to handle all types of arguments [🆓 free preview]
+4.1. How to create named functions, how to handle all types of arguments [🆓 free preview]
 
 > What we see: defun, returned values, required arguments, optional arguments, key arguments, how to set a default value, how to know if an argument was supplied, &rest, example of apply, example of an inline assertion under a feature flag.
 
-3.2. Referencing functions, redefining functions locally, accessing documentation
+4.2. Referencing functions, redefining functions locally, accessing documentation
 
 > What we see: apropos, documentation #'hello, the difference between 'hello and #'hello (quote, sharpsign-quote), flet and labels.
 
-3.3. Multiple Return Values
+4.3. Multiple Return Values
 
 > Multiple return values are NOT like returning a list or a tuple!!! What we see: counter-example in Python, values, multiple-value-bind, nth-value, values-list, m-v-l.
 
-3.4. Higher Order Functions
+4.4. Higher Order Functions
 
 > What we see: how to give functions as arguments, member, the :test keyword, map and mapcar, lambda, how to generate functions, setf symbol-function. A word on currying and being a Lisp-2.
 
-3.5. Closures
+4.5. Closures
 
 > What we see: closures (let over lambda and lambda over let over lambda). Notions of lexical scope, functions and their environment.
 
-3.6. setf functions
+4.6. setf functions
 
 > What we see: how and why setf functions, with our previous counter example and a circle class (we set a new radius given a circumference).
 
-3.7. Generic Functions (quick intro, sneak peak to CLOS)
+4.7. Generic Functions (quick intro, sneak peak to CLOS)
 
 > How to write functions that dynamically dispatch on the type of their arguments. What we see (quickly): defmethod, defgeneric (optional).
 
-4. **Working with projects**
+5. **Working with projects**
 
-4.1 How to work with an existing project
+5.1 How to work with an existing project
 
 > What we see: how to load the project thanks to its .asd file, install dependencies, go "in the package", being in a bare bones Lisp REPL or in Emacs and Slime. Appropriate Slime shortcuts. Get a list of the project's dependencies with ASDF programmatically.
 
-4.2. How to create a new project
+5.2. How to create a new project
 
 > What we see: a simple .asd file (flat source tree or a src/ subdirectory), a package definition, two project skeletons.
 
 As a complement, see this video: [cl-cookieproject demo](https://www.youtube.com/watch?v=XFc513MJjos).
 
-4.3. What are systems and packages anyways?
+5.3. What are systems and packages anyways?
 
 > What we see: a recap on systems. The :cl-user and :cl packages. Creating a package without using :cl symbols. Recovering from symbols name conflicts. Understanding that the reader "interns" symbols from what we type. Printing and counting external symbols of a package. Role of in-package. Exporting symbols.
 
