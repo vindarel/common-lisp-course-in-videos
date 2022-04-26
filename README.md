@@ -172,7 +172,16 @@ If you are a proficient programmer and you want to go to the essentials:
 - you can start by the chapter of your choice. Inside a chapter though, we build on previous content (especially in the one about functions)
 - you can leverage the fact that I go with a "code first" approach: show the code damn it, and then explain. So if the code is self-explanatory for you, you can skip the explanations.
 - be sure to have a Lisp editor at hand, the HyperSpec and/or a book reference (CLtL2), the Cookbook and a project idea.
+  - have a look at our exercise ideas
 - be demanding but don't be in a rush.
+
+## Exercises
+
+See the `exercises/` directory. Here are ideas that you are able to do at the end of each chapter.
+
+After chapter 5, you can fetch the GitHub API and build a project around that.
+
+*(Udemy doesn't fit well to these ideas and to Lisp code)*
 
 
 ## TODOs
