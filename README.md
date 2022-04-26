@@ -179,8 +179,8 @@ If you are a proficient programmer and you want to go to the essentials:
 
 More content:
 
-- iteration (ongoing)
-- systems and packages
+- [X] iteration
+- [X] systems and packages
 - working with SLIME
 - Atom and SLIMA
 - condition system
@@ -193,7 +193,10 @@ And also:
 - web applications
 - …
 
-In parallel, I'd like to **create shorter videos on other topics**. I'll see if interest is here… and time… and revenue (creating videos takes soooooo much time).
+In parallel, I want to **create shorter videos on other topics**. I'll see if interest is here… and time… and revenue (creating videos takes soooooo much time). See:
+
+- [How to create a Common Lisp project with my project generator](https://www.youtube.com/watch?v=XFc513MJjos&feature=youtu.be)
+- [Interactively fixing failing tests in Common Lisp](https://www.youtube.com/watch?v=KsHxgP3SRTs)
 
 
 ## Issues
