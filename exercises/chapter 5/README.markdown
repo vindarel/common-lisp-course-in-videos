@@ -55,3 +55,9 @@ While you're at it, you can…
 - save notes about a user on disk and restore them
   - format the notes in markdown
 - …
+
+# Demo video
+
+In this video I show how I inspect the GitHub API and the libraries I
+use to do the HTTP requests and parse JSON: Dexador, Jonathan, Shasht,
+Serapeum: [How to make requests to GitHub's REST API in Lisp](https://www.youtube.com/watch?v=TAtwcBh1QLg).
