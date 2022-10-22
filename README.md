@@ -204,6 +204,7 @@ And also:
 
 In parallel, I want to **create shorter videos on other topics**. I'll see if interest is here… and time… and revenue (creating videos takes soooooo much time). See:
 
+- [How to call a REST API in Common Lisp: fetching the GitHub API](https://www.youtube.com/watch?v=TAtwcBh1QLg) We see HTTP requests with Dexador, handling JSON… in the end we also build an utility for the command line.
 - [How to create a Common Lisp project with my project generator](https://www.youtube.com/watch?v=XFc513MJjos&feature=youtu.be)
 - [Interactively fixing failing tests in Common Lisp](https://www.youtube.com/watch?v=KsHxgP3SRTs)
 
