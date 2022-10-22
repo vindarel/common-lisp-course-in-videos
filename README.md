@@ -42,7 +42,7 @@ Here's what you'll learn.
 
 ## Content
 
-*Total learning material: 3h16. Subtitles: english.*
+*Total learning material: 3h35 and counting. Subtitles: english.*
 
 0. **Introduction video**
 
