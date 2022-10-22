@@ -146,6 +146,28 @@ As a complement, see this video: [cl-cookieproject demo](https://www.youtube.com
 
 > What we see: a recap on systems. The :cl-user and :cl packages. Creating a package without using :cl symbols. Recovering from symbols name conflicts. Understanding that the reader "interns" symbols from what we type. Printing and counting external symbols of a package. Role of in-package. Exporting symbols.
 
+6. **The Condition Handling System** [🆕 as of Oct. 2022]
+
+6.1 How to create an error, a warning and a simple-condition [🆓 free preview]
+
+> What we see: the ERROR and WARNING functions, MAKE-CONDITION and SIGNAL. What are simple conditions good for?
+
+6.2 How to handle ("catch") all sorts of errors and conditions
+
+> What we see: HANDLER-CASE, how to use it with built-in conditions types (division-by-zero…) and with conditions from third-party libraries. The importance of the class precedence list. How to inspect our Lisp image to find available error types.
+
+6.3 (DONE and UPCOMING) How to define our own errors
+
+6.4 (DONE and UPCOMING) IGNORE-ERRORS
+
+6.5 (DONE and UPCOMING)
+
+6.6 (DONE and UPCOMING) UNWIND-PROTECT: the "finally" in try/catch/finally
+
+6.7 (upcoming) Restarts
+
+6.8 (upcoming) HANDLER-BIND: the lispy super-power
+
 
 ## Who is this course for
 
@@ -181,7 +203,7 @@ See the `exercises/` directory. Here are ideas that you are able to do at the en
 
 After chapter 5, you can fetch the GitHub API and build a project around that.
 
-*(Udemy doesn't fit well to these ideas and to Lisp code)*
+*(The Udemy exercices section doesn't fit well to these ideas and to Lisp code)*
 
 
 ## TODOs
@@ -190,10 +212,10 @@ More content:
 
 - [X] iteration
 - [X] systems and packages
+- [X] the condition system (**NEW** Oct, 2022)
 - working with SLIME
-- Atom and SLIMA
-- condition system
-- CLOS
+- ~~Atom and SLIMA~~
+- CLOS (see the Cookbook for now)
 - concurrency
 
 And also:
@@ -211,7 +233,7 @@ In parallel, I want to **create shorter videos on other topics**. I'll see if in
 
 ## Issues
 
-- sound: I got a new microphone for my last video, "Lisp syntax and evaluation model". The sound of the other videos isn't good enough. Fix it.
+- sound: my first videos have a meh sound. I quickly bought a new microphone (January, 2022) for the following ones, starting with "Lisp syntax and evaluation model". Now, the majority of the chapters have a good sound. I re-recorded 1 video already and I'll eventually fix the rest.
 
 ## Feedback
 
