@@ -42,7 +42,7 @@ Here's what you'll learn.
 
 ## Content
 
-*Total learning material: 3h35 and counting. Subtitles: english.*
+*Total learning material: 3h43 and counting. Subtitles: english.*
 
 0. **Introduction video**
 
@@ -156,7 +156,9 @@ As a complement, see this video: [cl-cookieproject demo](https://www.youtube.com
 
 > What we see: HANDLER-CASE, how to use it with built-in conditions types (division-by-zero…) and with conditions from third-party libraries. The importance of the class precedence list. How to inspect our Lisp image to find available error types.
 
-6.3 (DONE and UPCOMING) How to define our own errors
+6.3 How to define our own errors
+
+> What we see: DEFINE-CONDITION, :report, :initargs, :initform, :reader and :accessor. Example of a locked package. How to print our error message to the end user.
 
 6.4 (DONE and UPCOMING) IGNORE-ERRORS
 
