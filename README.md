@@ -42,7 +42,7 @@ Here's what you'll learn.
 
 ## Content
 
-*Total learning material: 3h43 and counting. Subtitles: english.*
+*Total learning material: 3h46 and counting. Subtitles: english.*
 
 0. **Introduction video**
 
@@ -160,9 +160,9 @@ As a complement, see this video: [cl-cookieproject demo](https://www.youtube.com
 
 > What we see: DEFINE-CONDITION, :report, :initargs, :initform, :reader and :accessor. Example of a locked package. How to print our error message to the end user.
 
-6.4 (DONE and UPCOMING) IGNORE-ERRORS
+6.4 IGNORE-ERRORS
 
-6.5 (DONE and UPCOMING)
+> A quick demo of a very useful macro, coupled with a pattern I use a lot. How to build this macro with HANDLER-CASE.
 
 6.6 (DONE and UPCOMING) UNWIND-PROTECT: the "finally" in try/catch/finally
 
