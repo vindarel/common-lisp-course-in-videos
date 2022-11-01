@@ -85,7 +85,7 @@ Here's what you'll learn.
 
 3.1 Iterating over lists and vectors [🆓 free preview]
 
-> What we see: LOOP in/across and its various accumulating clauses, dolist, for:for, coerce. 
+> What we see: LOOP in/across and its various accumulating clauses, dolist, for:for, coerce.
 
 3.2 Iterating over a hash-table keys and values
 
@@ -169,6 +169,8 @@ As a complement, see this video: [cl-cookieproject demo](https://www.youtube.com
 6.7 (upcoming) Restarts
 
 6.8 (upcoming) HANDLER-BIND: the lispy super-power
+
+See exercises in `chapter 6 - condition handling/`.
 
 
 ## Who is this course for
