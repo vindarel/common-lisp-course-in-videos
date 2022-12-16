@@ -270,11 +270,17 @@ Tom, September of 2022, rated 3/5 (valuable information, accurate course descrip
 
 > I get distracted because of his french accent.
 
-Dietmar, October of 2022. Doing my best and started to practice with a friend (one note: there are subtitles to help)
+Dietmar, October of 2022. Doing my best and started to practice with a friend :S (one note: there are subtitles to help).
 
 > Very thorough! And the lisp cookbook online was a great supplement/introduction to the concepts in this course :)
 
 Sam, on July of 2022. Rated 5/5.
+
+> [french] J'en suis à la moitié. La pédagogie est au rendez-vous et c'est vraiment cool! Ça donne envie d'aller plus loin. Merci pour ce travail.
+
+("I did half of the course. Pedagogy is there as expected and it's really cool! Thus one wants to see more. Thanks for this work.")
+
+fredg, on Mastodon, December 2022.
 
 
 ## Conclusion
