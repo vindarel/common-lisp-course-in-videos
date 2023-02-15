@@ -42,7 +42,7 @@ Here's what you'll learn.
 
 ## Content
 
-*Total learning material: 3h46 and counting. Subtitles: english.*
+*Total learning material: 3h58 and counting. Subtitles: english.*
 
 0. **Introduction video**
 
@@ -166,9 +166,11 @@ As a complement, see this video: [cl-cookieproject demo](https://www.youtube.com
 
 6.6 (DONE and UPCOMING) UNWIND-PROTECT: the "finally" in try/catch/finally
 
-6.7 (upcoming) Restarts
+6.7 (upcoming) HANDLER-BIND: the lispy super-power (NEW on Feb 13th, 2023)
 
-6.8 (upcoming) HANDLER-BIND: the lispy super-power
+> What we see: what is a call stack, how HANDLER-CASE unwinds it, what HANDLER-BIND does better, its syntax, a practical example. A word about restarts and the INVOKE-DEBUGGER trick for development.
+
+<!-- 6.8 (upcoming) Restarts -->
 
 See exercises in `chapter 6 - condition handling/`.
 
