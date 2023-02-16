@@ -252,6 +252,10 @@ If you want to correct my (cute) accent, be my guest!
 
 Here is some feedback from people who took the course:
 
+> Thank you so much! I love the Udemy course and am always excited when new chapters arrive 😀
+
+@louis@emacs.sh on Mastodon, on February of 2023 (much thanks too!).
+
 > To start with, thanks to the author to create a course like this so that new Lispers (to Common Lisp at least) can learn something new. I've been working with (or managing to at least) Emacs Lisp for about a decade but wanted to get a little closer to Lisp, which brings me here. I took this course as a supplement to the book amazing book Land of Lisp in order to get more "practical" insights into Common Lisp, and how it's been used by "real" lispers. Vincent does a great job talking about the concepts and often also alerts the audience of a few gotchas here and there. He also does a decent job at explaining a few concepts that may be alien to most people who aren't really familiar with Lisp concepts. Having said that, I felt that there were still plenty of concepts that could be covered a little closer and some of which I could only understand due to my familiarity with Lisp due to my reading from Land of Lisp. Finally, I'll keep an eye on future additions to the course!
 
 Mohammed, on June of 2022. Rated the course 5/5.
