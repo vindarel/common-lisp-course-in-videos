@@ -164,7 +164,7 @@ As a complement, see this video: [cl-cookieproject demo](https://www.youtube.com
 
 > A quick demo of a very useful macro, coupled with a pattern I use a lot. How to build this macro with HANDLER-CASE.
 
-6.6 (DONE and UPCOMING) UNWIND-PROTECT: the "finally" in try/catch/finally
+6.6 UNWIND-PROTECT: the "finally" in try/catch/finally
 
 6.7 HANDLER-BIND: the lispy super-power (NEW on Feb 13th, 2023)
 
@@ -216,12 +216,17 @@ After chapter 5, you can fetch the GitHub API and build a project around that.
 
 More content:
 
+- [X] getting started
+- [X] Lisp basics
+- [X] all about functions
 - [X] iteration
 - [X] systems and packages
-- [X] the condition system (**NEW** Oct, 2022)
-- working with SLIME
-- ~~Atom and SLIMA~~
+- [X] the condition system (**NEW** Oct, 2022, expanded in February, 2023)
 - CLOS (see the Cookbook for now)
+- macros
+- IDEs:
+  - working with SLIME
+  - ~~Atom~~ Pulsar and SLIMA
 - concurrency
 
 And also:
