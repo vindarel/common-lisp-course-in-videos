@@ -166,7 +166,7 @@ As a complement, see this video: [cl-cookieproject demo](https://www.youtube.com
 
 6.6 (DONE and UPCOMING) UNWIND-PROTECT: the "finally" in try/catch/finally
 
-6.7 (upcoming) HANDLER-BIND: the lispy super-power (NEW on Feb 13th, 2023)
+6.7 HANDLER-BIND: the lispy super-power (NEW on Feb 13th, 2023)
 
 > What we see: what is a call stack, how HANDLER-CASE unwinds it, what HANDLER-BIND does better, its syntax, a practical example. A word about restarts and the INVOKE-DEBUGGER trick for development.
 
