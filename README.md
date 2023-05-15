@@ -262,6 +262,10 @@ If you want to correct my (cute) accent, be my guest!
 
 Here is some feedback from people who took the course:
 
+> It's good content I've literally been longing for […] It's really nice to have a concise version I can compare [my] notes with. Also this course gets into some things I didn't get to because of lack of time, so that's exciting to look forward to.
+
+Evan, April of 2023.
+
 > Thank you so much! I love the Udemy course and am always excited when new chapters arrive 😀
 
 @louis@emacs.sh on Mastodon, on February of 2023 (much thanks too!).
