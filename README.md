@@ -264,6 +264,10 @@ If you want to correct my (cute) accent, be my guest!
 
 Here is some feedback from people who took the course:
 
+> I bought your course half way into my lisp journey (almost 2 years now). It's good. […] It feels like the people who overcome the hardship of learning key things… know a secret… Paul Graham was right haha. Also, I learned `(values ... )` from your course. Gold.
+
+Vinn2010, Discord, June of 2023.
+
 > It's good content I've literally been longing for […] It's really nice to have a concise version I can compare [my] notes with. Also this course gets into some things I didn't get to because of lack of time, so that's exciting to look forward to.
 
 Evan, April of 2023.
