@@ -31,7 +31,7 @@ This course is the result of my experience writing new material,
 answering questions, writing libraries, software, demos, starter kits
 and using CL in production© [^1]. I run my own small business [^2].
 
-*Here's a [60% coupon until June 2nd, 2023](https://www.udemy.com/course/common-lisp-programming/?couponCode=GITHUBPOWER2023).* *If you are a student, drop me a line for a free link.*
+*Here's a [60% coupon until August 4th, 2023](https://www.udemy.com/course/common-lisp-programming/?couponCode=SUNNY-LISP-2023).* *If you are a student, drop me a line for a free link.*
 Here's what you'll learn.
 
 <p align="center">
