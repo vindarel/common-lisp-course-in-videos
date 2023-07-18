@@ -264,6 +264,12 @@ If you want to correct my (cute) accent, be my guest!
 
 Here is some feedback from people who took the course:
 
+> The Udemy course by @vindarel is **the** best introductory material for a fast and practical intro to Common Lisp.
+
+(thanks <3)
+
+![](tweet-2023-07.png)
+
 > I bought your course half way into my lisp journey (almost 2 years now). It's good. […] It feels like the people who overcome the hardship of learning key things… know a secret… Paul Graham was right haha. Also, I learned `(values ... )` from your course. Gold.
 
 Vinn2010, Discord, June of 2023.
