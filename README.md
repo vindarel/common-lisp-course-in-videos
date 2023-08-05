@@ -11,9 +11,11 @@
   <a href="https://framapiaf.org/@vindarel"><b> Mastodon </b></a> |
   <a href="https://twitter.com/vindarel"><b> Twitter </b></a>
 
-  <h4> Learn the Lisp language and its ecosystem, become an effective programmer and learn how to write real-world applications. Avoid all the traps that I faced during my journey! </h4>
+  <h4> Learn the Lisp language and its ecosystem, become an effective programmer and learn how to write real-world applications. Avoid all the traps that I faced during my journey. </h4>
 
 </p>
+
+⛱ NEW: upcoming in September, 2023: 17+ videos on MACROS!
 
 Guys and girls, I really like Common Lisp, it is superior to many
 languages out there (hello Python), but learning it isn't as easy as
@@ -181,6 +183,23 @@ As a complement, see this video: [cl-cookieproject demo](https://www.youtube.com
 
 See exercises in `chapter 6 - condition handling/`.
 
+7. MACROS
+
+I'll publish the chapter on macros in September, 2023. It's recorded and edited, awaiting subtitles.
+
+What we'll see:
+
+- a quick intro
+- a comparision with C macros
+- quote
+- backquote and comma
+- functions vs macros
+- comma-splice (,@)
+- &body vs &rest
+- call-with patern
+- compile-time computing
+- read-time evaluation
+- and 7 more videos.
 
 ## Who is this course for
 
