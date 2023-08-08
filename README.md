@@ -249,7 +249,7 @@ More content:
 - [X] systems and packages
 - [X] the condition system (**NEW** Oct, 2022, expanded in February, 2023)
 - CLOS (see the Cookbook for now)
-- macros
+- [ ] macros => **coming in September, 2023**.
 - IDEs:
   - working with SLIME
   - ~~Atom~~ Pulsar and SLIMA
@@ -288,6 +288,10 @@ Here is some feedback from people who took the course:
 (thanks <3)
 
 ![](tweet-2023-07.png)
+
+> A wonderful course for someone with cursory knowledge of lisp. I've dipped my feet many times now, but always struggled to wrap my head around everything. This course really helped give me greater confidence in how to start a project. I really enjoyed the focus on having an executable early. The Lisp-2 reveal was beautiful and made me finally understand the difference. Thanks a lot!
+
+Simon, August of 2023. (thanks <3 )
 
 > I bought your course half way into my lisp journey (almost 2 years now). It's good. […] It feels like the people who overcome the hardship of learning key things… know a secret… Paul Graham was right haha. Also, I learned `(values ... )` from your course. Gold.
 
