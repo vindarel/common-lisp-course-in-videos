@@ -45,7 +45,7 @@ Here's what you'll learn.
 
 *Total learning material: 4h06 and counting. Subtitles: english.*
 
-*Current rating (2023-05): 4.17 / 5 -thank you!*
+*Current rating (2023-05): 4.24 / 5 -thank you!*
 
 0. **Introduction video**
 
