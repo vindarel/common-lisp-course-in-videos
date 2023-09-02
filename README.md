@@ -66,7 +66,7 @@ Here's what you'll learn.
 
 # Content
 
-*Total learning material: 4h06 and counting. Subtitles: english.*
+*Total learning material: 4h38 and counting. Subtitles: english.*
 
 *Current rating (2023-08): 4.30 / 5 -thank you!*
 
@@ -207,23 +207,59 @@ As a complement, see this video: [cl-cookieproject demo](https://www.youtube.com
 
 See exercises in `chapter 6 - condition handling/`.
 
-## section 7: macros
+## section 7: macros (NEW! as of September 1st, 2023)
 
-I'll publish the chapter on macros in September, 2023. It's recorded and edited, awaiting subtitles.
+I started publish the chapter on macros on September, 1st of 2023. It is comprised of 18 short videos.
 
-What we'll see:
+I am editing subtitles on the go.
 
-- a quick intro
-- a comparision with C macros
-- quote
-- backquote and comma
-- functions vs macros
+What we see:
+
+7.1 A quick intro
+
+> Macros do not evaluate their arguments and expand to new code at compile time. What does that mean? A quick intro before diving deeper.
+
+7.2. A comparison with C macros
+
+> Lisp macros are NOT manipulating text, unlike C. Text leads to many unnecessary problems. We have a fun tour of a trivial need yet complicated issue in C that is easily done in Common Lisp.
+
+7.3 QUOTE
+
+> QUOTE does not evaluate its argument.
+
+> What we see: how to use QUOTE outside macros. Data takes the shape of code. We pair it with eval and we go full circle. We introduce the need to extrapolate values inside a quote.
+
+7.4 Backquote and comma
+
+> What we see: how we extrapolate variable values. How they can help create data structures. Real world examples.
+
+7.5 How to spot you are using a macro
+
+> Four tips to recognize if you are using a function or a macro, and why it matters.
+
+7.6 Functions vs macros
+
+> Macros do NOT replace functions!
+
+> What we see: they are not higher-level functions. The subtle but logic need to re-compile functions using macros.
+
+> Introducing MACROEXPAND.
+
+> Keeping compile-time computing in mind (more on that later). A look at a function's disassembly. So… you might not need a macro yet ;)
+
+Upcoming (they are already recorded):
+
 - comma-splice (,@)
-- &body vs &rest
+- &body and macro parameters
+- an example: with-echo macro
+- GENSYM
 - call-with patern
 - compile-time computing
+- AST?
+- two example macros
+- symbol-macro
 - read-time evaluation
-- and 7 more videos.
+- macrostep
 
 # Who is this course for
 
