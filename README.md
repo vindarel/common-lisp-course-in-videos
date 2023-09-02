@@ -40,20 +40,44 @@ Here's what you'll learn.
   <img src="udemy-photo-laptop--lambda.png" style="max-width: 500px">
 </p>
 
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+**Table of Contents**
 
-## Content
+- [Content](#content)
+    - [Introduction video](#introduction-video)
+    - [Section 1: Getting Started](#section-1-getting-started)
+    - [section 2: Lisp Basics](#section-2-lisp-basics)
+    - [section 3: iteration](#section-3-iteration)
+    - [section 4: all about functions](#section-4-all-about-functions)
+    - [section 5: working with projects](#section-5-working-with-projects)
+    - [section 6: the Condition Handling System](#section-6-the-condition-handling-system)
+    - [section 7: macros](#section-7-macros)
+- [Who is this course for](#who-is-this-course-for)
+- [How to best use this course if you are already a programmer](#how-to-best-use-this-course-if-you-are-already-a-programmer)
+- [Exercises](#exercises)
+- [TODOs](#todos)
+- [Demos on Youtube](#demos-on-youtube)
+- [Issues](#issues)
+- [Feedback](#feedback)
+- [Conclusion](#conclusion)
+
+<!-- markdown-toc end -->
+
+
+# Content
 
 *Total learning material: 4h06 and counting. Subtitles: english.*
 
 *Current rating (2023-08): 4.30 / 5 -thank you!*
 
-0. **Introduction video**
+
+## Introduction video
 
 > Short list of features. Companies using Common Lisp. Why this course.
 
 > Everything that was hard to find for me is presented and explained to you.
 
-1. **Section 1: Getting Started**
+## Section 1: Getting Started
 
 1.1. Install SBCL [🆓 free preview]
 
@@ -73,7 +97,7 @@ Here's what you'll learn.
 
 > Portacle allows to get started with a Common Lisp editor in 3 clicks, on Windows, MacOS and Linux. It provides: Emacs, SBCL, Quicklisp (the package manager), SLIME (the Superior Lisp Integration Mode for Emacs) as well as SLY, Git and Magit (the famous Emacs package). If you already know Emacs: you can stop watching at 9'. We first see: what is Portacle and where to get it, what it provides, some custom integrations (M-x create-project, the tree project explorer, company-mode and paredit-mode). Then, we continue with a more in-depth exploration, so you can find your way inside Emacs (buffer management, file management, Lisp code evaluation, how to create and quickload a project, Magit, how to use the help system…).
 
-2. **Lisp Basics**
+## section 2: Lisp Basics
 
 2.1. Lisp syntax and evaluation model [🆓 free preview]
 
@@ -90,7 +114,7 @@ Here's what you'll learn.
 > What we see: if, when, unless, cond, case, the or shortcut, the #+(or) "\*features\*" trick, an example where we load a lispy configuration file.
 
 
-3. **Iteration**
+## section 3: iteration
 
 3.1 Iterating over lists and vectors [🆓 free preview]
 
@@ -109,7 +133,7 @@ Here's what you'll learn.
 > What we see: the structure of LOOP. Two rules to keep in mind. LOOP smells. We enhance an example from an answer of Advent Of Code 2021.
 
 
-4. **All about functions**
+## section 4: all about functions
 
 4.1. How to create named functions, how to handle all types of arguments [🆓 free preview]
 
@@ -139,7 +163,7 @@ Here's what you'll learn.
 
 > How to write functions that dynamically dispatch on the type of their arguments. What we see (quickly): defmethod, defgeneric (optional).
 
-5. **Working with projects**
+## section 5: working with projects
 
 5.1 How to work with an existing project
 
@@ -155,7 +179,7 @@ As a complement, see this video: [cl-cookieproject demo](https://www.youtube.com
 
 > What we see: a recap on systems. The :cl-user and :cl packages. Creating a package without using :cl symbols. Recovering from symbols name conflicts. Understanding that the reader "interns" symbols from what we type. Printing and counting external symbols of a package. Role of in-package. Exporting symbols.
 
-6. **The Condition Handling System** [🆕 as of Oct. 2022]
+## section 6: the Condition Handling System
 
 6.1 How to create an error, a warning and a simple-condition [🆓 free preview]
 
@@ -183,7 +207,7 @@ As a complement, see this video: [cl-cookieproject demo](https://www.youtube.com
 
 See exercises in `chapter 6 - condition handling/`.
 
-7. MACROS
+## section 7: macros
 
 I'll publish the chapter on macros in September, 2023. It's recorded and edited, awaiting subtitles.
 
@@ -201,7 +225,7 @@ What we'll see:
 - read-time evaluation
 - and 7 more videos.
 
-## Who is this course for
+# Who is this course for
 
 This course is *not* for total newcomers in programming. You should know what variables and functions are.
 
@@ -217,7 +241,7 @@ for Clojurists who want to transition quickly to a bare-metal Lisp,
 
 or simply for your friend or colleague.
 
-## How to best use this course if you are already a programmer
+# How to best use this course if you are already a programmer
 
 If you are a proficient programmer and you want to go to the essentials:
 
@@ -229,7 +253,7 @@ If you are a proficient programmer and you want to go to the essentials:
   - have a look at our exercise ideas
 - be demanding but don't be in a rush.
 
-## Exercises
+# Exercises
 
 See the `exercises/` directory. Here are ideas that you are able to do at the end of each chapter.
 
@@ -238,7 +262,7 @@ After chapter 5, you can fetch the GitHub API and build a project around that.
 *(The Udemy exercices section doesn't fit well to these ideas and to Lisp code)*
 
 
-## TODOs
+# TODOs
 
 More content:
 
@@ -261,7 +285,7 @@ And also:
 - web applications
 - …
 
-## Demos on Youtube
+# Demos on Youtube
 
 In parallel, I want to **create shorter videos on other topics**. I'll see if interest is here… and time… and revenue (creating videos takes soooooo much time). See:
 
@@ -271,11 +295,11 @@ In parallel, I want to **create shorter videos on other topics**. I'll see if in
 - [Debugging Common Lisp: fix and resume a program from any point in the stack](https://www.youtube.com/watch?v=jBBS4FeY7XM) - with Emacs and the Lem editor. We show how to fix a bug, re-compile ONE function and resume execution from where it failed. An extremely useful lesser known Common Lisp feature. We do all that while the program is still running and we avoid re-running long computations.
 
 
-## Issues
+# Issues
 
 - sound: my first videos have a meh sound. I quickly bought a new microphone (January, 2022) for the following ones, starting with "Lisp syntax and evaluation model". Now, the majority of the chapters have a good sound. I re-recorded 1 video already and I'll eventually fix the rest.
 
-## Feedback
+# Feedback
 
 I would like very much to have your feedback on the course, alongside your background in programming in a few words.
 
@@ -338,7 +362,7 @@ Sam, on July of 2022. Rated 5/5.
 fredg, on Mastodon, December 2022.
 
 
-## Conclusion
+# Conclusion
 
 Learn CL *now* and use it *all your life*: code written 30 years ago still runs today O_o
 
