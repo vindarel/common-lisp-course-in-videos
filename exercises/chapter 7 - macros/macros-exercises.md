@@ -26,6 +26,7 @@ More:
 
 and quote this.
 
+
 ### quoting quotes
 
 Type:
@@ -53,7 +54,6 @@ then
 ~~~lisp
 (quote (quote a))
 ~~~
-
 
 
 ### Quote variables and other symbols
@@ -129,3 +129,73 @@ use `copy-seq` or `copy-list` before using it), and other functions
 named with a starting "n", like `nreverse`. See the [Cookbook, "data
 structures"](https://lispcookbook.github.io/cl-cookbook/data-structures.html). It's
 wise to avoid them and use the non-destructive ones.
+
+## Backquote and comma
+
+### Basics
+
+Replace the LIST constructor with backquote and comma, as in the video:
+
+~~~lisp
+(let ((a 1)
+      (b 2))
+  (list :a a :b b))
+~~~
+
+But remember the quote warning: this is an exercise, you should keep
+using LIST, until you know what you do ;)
+
+### cons cells (macros detour)
+
+As in the video again, transform this with backquote and commas:
+
+~~~lisp
+(list (cons :a 1)
+      (cons :b 2))
+~~~
+
+First, evaluate it and observe how the cons cell is printed
+(represented) with a dot.
+
+Evaluate this:
+
+~~~lisp
+(cons :a nil)
+~~~
+
+and this:
+
+~~~lisp
+(cons :a (cons :b nil))
+~~~
+
+How is it printed? Still with a dot? You are seeing a Lisp printer
+convention: when a cons cell ends with NIL, it represents a list, and
+is printed without a dot. You can find this in the Cookbook.
+
+### Build HTTP headers
+
+Quickload the Dexador library and create headers, using a list of cons
+cells as in the video. Use `:verbose t` to see them printed on the
+REPL.
+
+Have a look at the awesome-cl list for other solutions to send emails
+in CL. Optionally, do a quick GitHub search about them.
+
+### Trap question
+
+Do you think you can replace this with a backquote and comma?
+
+~~~lisp
+(let ((a 1))
+  (format t "the value of a is ~a" a))
+~~~
+
+of course no.
+
+Beginners fall in the common trap to over-complicate things, to think
+that quote and backquote are the crux of Common Lisp development. Be
+careful. Your goal is to use functions, instead of macros, as much as
+possible. See the video "functions VS macros".
+
+You might not need a macro yet ;)
