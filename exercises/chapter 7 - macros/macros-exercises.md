@@ -199,3 +199,49 @@ careful. Your goal is to use functions, instead of macros, as much as
 possible. See the video "functions VS macros".
 
 You might not need a macro yet ;)
+
+## Macros parameters
+
+### Practice
+
+Practice the examples of the video, write the two macros:
+
+~~~lisp
+(dolist x (list …) …)
+;; and
+(dolist (x (list …)) …)
+~~~
+
+## GENSYM
+
+### Practice
+
+Practice all what we saw in the video ;)
+
+### Intended variable capture
+
+What if sometimes, we *wanted* to capture symbols inside our macro?
+
+Here's a use case, where `--map` is our macro:
+
+~~~lisp
+(--map (+ 10 it) '(1 2 3))
+;; =>
+;; (11 12 13)
+~~~
+
+instead of:
+
+~~~lisp
+(mapcar (lambda (x)
+         (+ 10 x))
+     '(1 2 3))
+~~~
+
+Accordingly, the "--map" macro isn't really Common Lisp style, even
+though there is complete library with this style of macros. We see
+this more in Elisp.
+
+Create the `--map` macro.
+
+Solution in the other file.
