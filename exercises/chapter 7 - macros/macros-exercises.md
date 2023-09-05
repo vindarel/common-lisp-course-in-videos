@@ -212,6 +212,32 @@ Practice the examples of the video, write the two macros:
 (dolist (x (list …)) …)
 ~~~
 
+### Re-implement usual macros
+
+Implement `when`, `if` (call them "my-whem", "my-if", or better:
+create a package that shadows the built-in symbols). Yes, you can use
+the built-in cl:if.
+
+Implement a `while` macro.
+
+Its lambda list will be: `(while test <body forms>)`.
+
+Example use:
+
+~~~lisp
+(let ((x 0))
+  (while (< x 3)
+    (print 'hello)
+    (setf x (incf x))))
+~~~
+
+You can use the almighty `loop` for this (it has an appropriate clause).
+
+Be sure to check the macro expansions.
+
+These macros are simple, but you must practice.
+
+
 ## GENSYM
 
 ### Practice
@@ -245,3 +271,48 @@ this more in Elisp.
 Create the `--map` macro.
 
 Solution in the other file.
+
+### string-case (difficult)
+
+This one is more difficult: implement a `string-case` macro. Like
+`case`, but works for strings.
+
+Example use:
+
+```lisp
+(defparameter s "test")
+
+(string-case s
+  ("x" (print "that's x"))
+  ("test" (print "that's my test!"))
+  (t (print "nevermind")))
+```
+
+Its form is: `(string-case <string> <forms>)` and forms are
+two-tuples: the first element is a string, the second is a form to
+execute when the two strings match.
+
+You'll need to iterate on the forms, compare `s` with the form's first
+element, and if they are equal, evaluate the form's second element,
+and you must check that the first element is a string and not `t`.
+
+But the real question is: what final code do we want to generate?
+Reminder: `s` is a variable that will be known at run time, not
+compile time. A possibility is to build a `cond` of this form:
+
+```lisp
+(cond
+  ((equal s <first form element>)
+    <second form element>)
+  ;; and so on for each form)
+```
+
+You might need a gensym. If you want to quote an expression inside a
+,@ then just use a backquote.
+
+Reminder: the macro doesn't "return" a result, it assembles and
+generates lists of s-expressions.
+
+Try with regular code outside the macro first. Write the final code
+that you want to generate. Adding "quote" in full letters step by
+step might help. Does the call-will- pattern help you?
