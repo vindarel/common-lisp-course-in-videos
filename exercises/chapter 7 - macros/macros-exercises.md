@@ -275,7 +275,7 @@ Solution in the other file.
 ### string-case (difficult)
 
 This one is more difficult: implement a `string-case` macro. Like
-`case`, but works for strings.
+`case`, but working for strings.
 
 Example use:
 
@@ -288,15 +288,11 @@ Example use:
   (t (print "nevermind")))
 ```
 
-Its form is: `(string-case <string> <forms>)` and forms are
+Its form is: `(string-case <string variable> <forms>)` and forms are
 two-tuples: the first element is a string, the second is a form to
 execute when the two strings match.
 
-You'll need to iterate on the forms, compare `s` with the form's first
-element, and if they are equal, evaluate the form's second element,
-and you must check that the first element is a string and not `t`.
-
-But the real question is: what final code do we want to generate?
+The real question is: what final code do we want to generate?
 Reminder: `s` is a variable that will be known at run time, not
 compile time. A possibility is to build a `cond` of this form:
 
@@ -307,12 +303,38 @@ compile time. A possibility is to build a `cond` of this form:
   ;; and so on for each form)
 ```
 
-You might need a gensym. If you want to quote an expression inside a
-,@ then just use a backquote.
+So this is our initial need, better formulated: imagine we were
+writing a bunch of "(cond ((equal s…" code, and we want to create a
+shorter construct. We want to go from:
+
+```lisp
+(cond
+  ((equal s "test")
+   (print "my test!"))
+  (t (print "nevermind")))
+```
+
+to
+
+```lisp
+(string-case s
+  ("test" (print "my test!"))
+  (t (print "nevermind")))
+```
+
+In the second snippet we have less repetition, and we use a well-known
+case-like construct. So, our goal is to start with expressions from
+string-case and generate expressions for COND.
+
+You'll need to generate a COND, iterate on the forms, assemble new
+"((equal s <string>) <body>)" clauses, not forgetting to handle the
+form with `t` (that doesn't need an equality test).
+
+You might need a gensym. You can quote an expression inside a ,@.
 
 Reminder: the macro doesn't "return" a result, it assembles and
 generates lists of s-expressions.
 
-Try with regular code outside the macro first. Write the final code
-that you want to generate. Adding "quote" in full letters step by
+Start with the final code that you want to generate. Manipulate a list
+of forms outside the macro.  Adding "quote" in full letters step by
 step might help. Does the call-will- pattern help you?
