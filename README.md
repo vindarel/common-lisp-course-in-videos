@@ -247,19 +247,56 @@ What we see:
 
 > Keeping compile-time computing in mind (more on that later). A look at a function's disassembly. So… you might not need a macro yet ;)
 
-Upcoming (they are already recorded):
 
-- comma-splice (,@)
-- &body and macro parameters
-- an example: with-echo macro
-- GENSYM
-- call-with patern
-- compile-time computing
-- AST?
-- two example macros
-- symbol-macro
-- read-time evaluation
-- macrostep
+7.7 COMMA SPLICE ,@ the third most important macro mechanism
+
+> What we see: when use it, understanding the common error messages, passing body forms to our macro. Our first macro model.
+
+7.8 &body and other macro parameters. Our second macro model.
+
+> What we see: how &body differs to &rest. Macro parameters: lots of possibilities, but some conventions carry meaning. Our own DOLIST macro. Our second macro model you can follow.
+
+7.9 Putting this together: with-echo macro. Macroexpand in use.
+
+> We build our first macro with backquote and comma-splice, even a quote followed by a comma. We use macroexpand.
+
+7.10 GENSYM -the simple fix to the most dangerous macros gotcha
+
+> What we see: what is variable capture and how to avoid it. Writing our own REPEAT macro. A little discussion about Common Lisp VS Scheme macros. GENSYM can be used outside macros too.
+
+At this point you know enough to write all common macros. See the exercises for easy and not-so-easy ones.
+
+7.11 CALL-WITH pattern: simplifying macros
+
+> We saw there can be subtle pitfalls when we write a macro. This pattern allows to offload most of the work to a function, which presents many advantages. We demo with our REPEAT macro.
+
+7.12 Compile time computing
+
+When writing macros, we have the full power of Common Lisp at compile time. This gives great tools to the developer: early type errors and warnings, faster runtime.
+
+> What we see: a simple example, writing a scientific macro for conversion of unit at compile time, existing libraries for that, introduction to dispatching macro characters and reader macros.
+
+7.13 Lists VS AST
+
+> What we see: other languages don't have macros but can manipulate Abstract Syntax Trees. Code as lists of symbols is not the same, we would need a third-party library to manipulate a Lisp AST proper. This doesn't prevent us to develop crazy macros though, see this library adding Haskell-like type checking on top of Common Lisp, in pure CL macros.
+
+7.14 Two example macros for compile-time computing
+
+> defstar allows to specify a function's arguments' types, Serapeum's ecase-of does exhaustiveness type checking. At compile time, of course.
+
+7.15 SYMBOL-MACRO
+
+> A symbol macro is not your everyday Lisp development tool, but it expands your toolbet. Again.
+
+7.16 Read-time evaluation with #.
+
+> Macros occur at compile-time. But Common Lisp blurs the lines between read time, compile time and run time. This allows to execute code at READ time.
+
+7.17 EDITOR TOOL: macrostep **(FREE PREVIEW, Lem demo)**
+
+> Macrostep is an editor extension that helps understand our macro expansions. It is only available in Sly and Lem. We demo with the Lem editor.
+
+
 
 # Who is this course for
 
@@ -307,9 +344,9 @@ More content:
 - [X] all about functions
 - [X] iteration
 - [X] systems and packages
-- [X] the condition system (**NEW** Oct, 2022, expanded in February, 2023)
+- [X] the condition system
 - CLOS (see the Cookbook for now)
-- [ ] macros => **coming in September, 2023**.
+- [X] macros => **NEW in September, 2023**.
 - IDEs:
   - working with SLIME
   - ~~Atom~~ Pulsar and SLIMA
