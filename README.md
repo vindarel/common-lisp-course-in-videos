@@ -15,7 +15,11 @@
 
 </p>
 
-⛱ NEW: upcoming in September, 2023: 17+ videos on MACROS!
+
+<p style=" background-color: rgba(255, 0, 0, 0.6); color: #3b3b3b; text-align: center;"> 🎥 ⛱
+NEW in September, 2023: 17 videos on MACROS!
+</p>
+
 
 Guys and girls, I really like Common Lisp, it is superior to many
 languages out there (hello Python), but learning it isn't as easy as
@@ -33,7 +37,7 @@ This course is the result of my experience writing new material,
 answering questions, writing libraries, software, demos, starter kits
 and using CL in production© [^1]. I run my own small business [^2].
 
-*Here's a [60% coupon until August 4th, 2023](https://www.udemy.com/course/common-lisp-programming/?couponCode=SUNNY-LISP-2023).* *If you are a student, drop me a line for a free link.*
+*Here's a [60% coupon until October 10th, 2023](https://www.udemy.com/course/common-lisp-programming/?couponCode=LISPMACROSPOWER).* *If you are a student, drop me a line for a free link.*
 Here's what you'll learn.
 
 <p align="center">
