@@ -15,10 +15,9 @@
 
 </p>
 
-
-<p style=" background-color: rgba(255, 0, 0, 0.6); color: #3b3b3b; text-align: center;"> 🎥 ⛱
-NEW in September, 2023: 17 videos on MACROS!
-</p>
+<div style="width: 100%;">
+  <img src="announce.svg" style="width: 100%;" alt="New in September, 2023: 17 videos on macros.">
+</div>
 
 
 Guys and girls, I really like Common Lisp, it is superior to many
