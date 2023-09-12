@@ -34,7 +34,8 @@ to written resources such as the
 You can now **learn Common Lisp with my [videos on the Udemy platform](https://www.udemy.com/course/common-lisp-programming/?referralCode=2F3D698BBC4326F94358)**. At the time of writing, I consider it half done (but the chapters there are complete). If you subscribe now, you'll have access to the new content that I'm working on. I truly believe this course to be **the most effective way to learn Common Lisp today**. I am genuinely happy to share all that with you.
 
 This course is the result of my experience writing new material,
-answering questions, writing libraries, software, demos, starter kits
+answering questions, writing libraries, software, demos, starter kits,
+contributing to and starting ambitious projects (Nyxt, Lem, CIEL…)
 and using CL in production© [^1]. I run my own small business [^2].
 
 *Here's a [60% coupon until October 10th, 2023](https://www.udemy.com/course/common-lisp-programming/?couponCode=LISPMACROSPOWER).* *If you are a student, drop me a line for a free link.*
