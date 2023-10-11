@@ -244,6 +244,22 @@ These macros are simple, but you must practice.
 
 Practice all what we saw in the video ;)
 
+### OR
+
+Write your own `or` macro. Let's say it accepts only two arguments.
+
+~~~lisp
+(my-or 1 2)
+~~~
+
+It must: bind the first argument to a temporary variable, check it for
+truthiness, if true return it, otherwise return the second argument.
+
+You can `macroexpand` an `or` expression to have an idea:
+
+    (macroexpand '(or 1 2))
+
+
 ### Intended variable capture
 
 What if sometimes, we *wanted* to capture symbols inside our macro?
