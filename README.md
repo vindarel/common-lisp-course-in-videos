@@ -394,7 +394,7 @@ Here is some feedback from people who took the course:
 
 Simon, August of 2023. (thanks <3 )
 
-> I bought your course half way into my lisp journey (almost 2 years now). It's good. […] It feels like the people who overcome the hardship of learning key things… know a secret… Paul Graham was right haha. Also, I learned `(values ... )` from your course. Gold.
+> I bought your course half way into my lisp journey (almost 2 years now). It's good. Your macros chapter is dope. […] It feels like the people who overcome the hardship of learning key things… know a secret… Paul Graham was right haha. Also, I learned `(values ... )` from your course. Gold.
 
 Vinn2010, Discord, June of 2023.
 
