@@ -384,9 +384,13 @@ If you want to correct my (cute) accent, be my guest!
 
 Here is some feedback from people who took the course:
 
+> Amazing explanation style.
+
+Aneeq, December 2023.
+
 > I thought I was familiar with Lisp, but the author has revealed so many nuances, quirks, and features! His broad experience is very apparent, I feel I am learning so much faster this way, $ well spent!
 
-Kenneth, October 19th.
+Kenneth, October 2023.
 
 > The Udemy course by @vindarel is **the** best introductory material for a fast and practical intro to Common Lisp.
 
