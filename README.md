@@ -37,7 +37,7 @@ answering questions, writing libraries, software, demos, starter kits,
 contributing to and starting ambitious projects (Nyxt, Lem, CIEL…)
 and using CL in production© [^1]. I run my own small business [^2].
 
-*Here's a [60% coupon until October 10th, 2023](https://www.udemy.com/course/common-lisp-programming/?couponCode=LISPMACROSPOWER).* *If you are a student, drop me a line for a free link.*
+*Let's celebrate 1001 learners! Here's a [60% coupon until 14th March, 2024](https://www.udemy.com/course/common-lisp-programming/?couponCode=CELEBRATE1001).* *If you are a student, drop me a line for a free link.*
 Here's what you'll learn.
 
 <p align="center">
