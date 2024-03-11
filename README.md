@@ -384,6 +384,10 @@ If you want to correct my (cute) accent, be my guest!
 
 Here is some feedback from people who took the course:
 
+> I liked this course a lot. I could have done with more quizzes/tests to ensure the retention of information, but I get that this course is more than likely meant for those familiar with programming who just needed the information to get started. As well, Lisp seems very much a case of "what you put into it is what you get out of it," so quizzing/testing might be inappropriate as it isn't gearing the learner toward what it is actually like using CL. Either way, I liked it a lot, and will be referring to it as I work with CL. I took a lot of notes, but noted the resources linked alongside nearly every major lesson as well. Those will be good. Either way --best modern education (that isn't plain documentation without context) on Common Lisp I've found so far. Thank you, Vincent!
+
+Caleb, March 2024.
+
 > Amazing explanation style.
 
 Aneeq, December 2023.
