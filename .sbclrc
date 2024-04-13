@@ -1,0 +1,115 @@
+;; Example ~/.sbclrc startup file for SBCL.
+;; It's a lisp file, with no .lisp extension.
+;;
+;; You don't *need* such a file, you can absolutely start without it.
+;;
+;;
+;; Don't conflate this file with the elisp configuration that we might need to write for Emacs,
+;; in Emacs' init file (~/.emacs.d/init.el).
+
+;; This file is to illustrate what we talk about in my CL course.
+;; https://www.udemy.com/course/common-lisp-programming/?referralCode=2F3D698BBC4326F94358
+;; Thank you everybody for your support and stay tuned.
+
+;;;;;;;;;;
+;; ASDF
+;;;;;;;;;;
+
+;; ASDF is the system definition facility.
+;; It also includes UIOP, for portable (accross implementations and OSes) functions on processes, files, etc.
+;; It is a module shipped in most Lisp implementations, but not always loaded by default. So let's "require" it, to be sure.
+(require 'asdf)
+
+;; What are other modules you could "require"?
+;; Check out: https://www.sbcl.org/manual/#Contributed-Modules
+;; For example, the sb-cover code coverage module.
+;;
+;; What are the modules that are already loaded?
+;; Good question. They are named "sb-" something. You can type sb- on the REPL and see the completion.
+;; Examples:
+;; - sb-unicode: use sb-unicode:unicode< to sort strings with good unicode order)
+;; - sb-thread: threading module, used by bordeaux-threads.
+;; - sb-posix: for chdir, chown… functions wrapped portably by UIOP.
+
+
+;; This is a simple way to have a project readily quickload -able, or asdf:load-system -able
+;; when you start Slime. We don't need to load the .asd project definition, since ASDF knows
+;; where our system is.
+;; Other solutions include:
+;; - place your project under ~/quicklisp/local-projects/
+;; - or under ~/common-lisp/
+;; - or create symlinks
+;; - or just get used to load the .asd (C-c C-k) and quickload the project, in 2 steps.
+(pushnew "~/projects/shiny-lisp-project/" asdf:*central-registry* :test #'equal)
+
+;; Even though the ASDF manual says this is a deprecated method, it works and will for years,
+;; and is the simplest method IMO.
+
+;; Idea: evaluate asdf:*central-registry* and see what's in there.
+
+
+;;;;;;;;;;;;;;;
+;; Quicklisp
+;;;;;;;;;;;;;;;
+
+;;; The following lines are added by ql:add-to-init-file when you install Quicklisp:
+#-quicklisp
+(let ((quicklisp-init (merge-pathnames "quicklisp/setup.lisp"
+                                       "/home/vince/")))  ;; <--- warning, hard-coded USER name.
+  (when (probe-file quicklisp-init)
+    (load quicklisp-init)))
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Disable the interactive debugger
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; From the "getting started" chapter.
+(defun print-condition-hook (condition hook)
+  "Print this error message (condition) and abort the current operation."
+  (declare (ignore hook))
+  (princ condition)
+  (clear-input)
+  (abort))
+
+;; Remember: this disables the interactive debugger in the REPL and only prints conditions.
+;; You can do this if you are using SBCL in the terminal,
+;; but I don't advise to do this when you are using a real IDE like Slime, use the debugger!
+
+(uiop:format! t "*** reminder: we now disable the interactive debugger. Remove this setting from ~/.sbclrc when using Slime or another IDE. *****")
+(setf *debugger-hook* #'print-condition-hook)
+
+
+;;;;;;;;;;;;;;;;;;;;
+;; Anything else.
+;;;;;;;;;;;;;;;;;;;;
+
+;; We can define anything we want, we are in a regular lisp file after all.
+;; These new symbols (variables, functions, macros…) will be available, by default, under the
+;; common-lisp-user (or cl-user) package.
+
+;; This is a simple lambda shortcut. It saves typing "lambda" for "^".
+(defmacro ^ (&rest forms)
+  ;; from Bard
+  `(lambda ,@forms))
+
+;; Usage:
+#|
+(mapcar (lambda (x) (+ x 10)) '(1 2 3))
+;; =>
+(mapcar (^ (x) (+ x 10)) '(1 2 3))
+
+;; or also:
+(defun add10 (x)
+  (+ x 10))
+
+(mapcar #'add10 '(1 2 3))
+
+|#
+
+
+;; Exercise: check the macro expansion ;)
+
+;; end of the example ~/.sbclrc
+;;
+;; I don't have much more things in it myself. More complex stuff should be in their own project IMO.
