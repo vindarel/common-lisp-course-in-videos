@@ -20,7 +20,7 @@
 </div>
 
 
-Guys and girls, I really like Common Lisp, it is superior to many
+Everyone, I really like Common Lisp, it is superior to many
 languages out there (hello Python), but learning it isn't as easy as
 it should be. Despite very good books, there aren't many online
 resources, the language has its peculiarities, the ecosystem is
@@ -55,7 +55,8 @@ Here's what you'll learn.
     - [section 4: all about functions](#section-4-all-about-functions)
     - [section 5: working with projects](#section-5-working-with-projects)
     - [section 6: the Condition Handling System](#section-6-the-condition-handling-system)
-    - [section 7: macros](#section-7-macros)
+    - [section 7: the Common Lisp Object System (CLOS) (NEW! as of July, 2024)](#section-7-the-common-lisp-object-system-clos-new-as-of-july-2024)
+    - [section 8: macros](#section-8-macros)
 - [Who is this course for](#who-is-this-course-for)
 - [How to best use this course if you are already a programmer](#how-to-best-use-this-course-if-you-are-already-a-programmer)
 - [Exercises](#exercises)
@@ -211,37 +212,52 @@ As a complement, see this video: [cl-cookieproject demo](https://www.youtube.com
 
 See exercises in `chapter 6 - condition handling/`.
 
-## section 7: macros (NEW! as of September 1st, 2023)
+## section 7: the Common Lisp Object System (CLOS) (NEW! as of July, 2024)
 
-I started publish the chapter on macros on September, 1st of 2023. It is comprised of 18 short videos.
+NEW! I recorded 8 videos on CLOS. I am publishing them one by one, editing subtitles on the way.
 
-I am editing subtitles on the go.
+CLOS is the famour object system of Common Lisp.
 
 What we see:
 
-7.1 A quick intro
+7.1 CLOS crash course, part 1
+
+> DEFCLASS, MAKE-INSTANCE, attributes (aka slots), slot options (initarg, initform, reader, writer, accessor, documentation), slot-value, generic functions, DEFMETHOD, dispatching on built-in types, how objects are lazily updated, Slime inspector actions, manipulating Slime presentations, unbound slots and SLOT-BOUNDP, Slime shortcuts to create objects…
+
+7.2 (upcoming) CLOS crash course, part 2
+
+> Inheritance, multimethods, :around, :before and :after methods (think signals and overwriting default methods in other languages, that allow to control what happens when a method is called, if it is called at all), their order of execution, a Slime shortcut to export all symbols of a class at once…
+
+
+## section 8: macros
+
+I started publish the chapter on macros on September, 1st of 2023. It is comprised of 18 short videos.
+
+What we see:
+
+8.1 A quick intro
 
 > Macros do not evaluate their arguments and expand to new code at compile time. What does that mean? A quick intro before diving deeper.
 
-7.2. A comparison with C macros
+8.2. A comparison with C macros
 
 > Lisp macros are NOT manipulating text, unlike C. Text leads to many unnecessary problems. We have a fun tour of a trivial need yet complicated issue in C that is easily done in Common Lisp.
 
-7.3 QUOTE
+8.3 QUOTE
 
 > QUOTE does not evaluate its argument.
 
 > What we see: how to use QUOTE outside macros. Data takes the shape of code. We pair it with eval and we go full circle. We introduce the need to extrapolate values inside a quote.
 
-7.4 Backquote and comma
+8.4 Backquote and comma
 
 > What we see: how we extrapolate variable values. How they can help create data structures. Real world examples.
 
-7.5 How to spot you are using a macro
+8.5 How to spot you are using a macro
 
 > Four tips to recognize if you are using a function or a macro, and why it matters.
 
-7.6 Functions vs macros
+8.6 Functions vs macros
 
 > Macros do NOT replace functions!
 
@@ -252,51 +268,51 @@ What we see:
 > Keeping compile-time computing in mind (more on that later). A look at a function's disassembly. So… you might not need a macro yet ;)
 
 
-7.7 COMMA SPLICE ,@ the third most important macro mechanism
+8.7 COMMA SPLICE ,@ the third most important macro mechanism
 
 > What we see: when use it, understanding the common error messages, passing body forms to our macro. Our first macro model.
 
-7.8 &body and other macro parameters. Our second macro model.
+8.8 &body and other macro parameters. Our second macro model.
 
 > What we see: how &body differs to &rest. Macro parameters: lots of possibilities, but some conventions carry meaning. Our own DOLIST macro. Our second macro model you can follow.
 
-7.9 Putting this together: with-echo macro. Macroexpand in use.
+8.9 Putting this together: with-echo macro. Macroexpand in use.
 
 > We build our first macro with backquote and comma-splice, even a quote followed by a comma. We use macroexpand.
 
-7.10 GENSYM -the simple fix to the most dangerous macros gotcha
+8.10 GENSYM -the simple fix to the most dangerous macros gotcha
 
 > What we see: what is variable capture and how to avoid it. Writing our own REPEAT macro. A little discussion about Common Lisp VS Scheme macros. GENSYM can be used outside macros too.
 
 At this point you know enough to write all common macros. See the exercises for easy and not-so-easy ones.
 
-7.11 CALL-WITH pattern: simplifying macros
+8.11 CALL-WITH pattern: simplifying macros
 
 > We saw there can be subtle pitfalls when we write a macro. This pattern allows to offload most of the work to a function, which presents many advantages. We demo with our REPEAT macro.
 
-7.12 Compile time computing
+8.12 Compile time computing
 
 When writing macros, we have the full power of Common Lisp at compile time. This gives great tools to the developer: early type errors and warnings, faster runtime.
 
 > What we see: a simple example, writing a scientific macro for conversion of unit at compile time, existing libraries for that, introduction to dispatching macro characters and reader macros.
 
-7.13 Lists VS AST
+8.13 Lists VS AST
 
 > What we see: other languages don't have macros but can manipulate Abstract Syntax Trees. Code as lists of symbols is not the same, we would need a third-party library to manipulate a Lisp AST proper. This doesn't prevent us to develop crazy macros though, see this library adding Haskell-like type checking on top of Common Lisp, in pure CL macros.
 
-7.14 Two example macros for compile-time computing
+8.14 Two example macros for compile-time computing
 
 > defstar allows to specify a function's arguments' types, Serapeum's ecase-of does exhaustiveness type checking. At compile time, of course.
 
-7.15 SYMBOL-MACRO
+8.15 SYMBOL-MACRO
 
 > A symbol macro is not your everyday Lisp development tool, but it expands your toolbet. Again.
 
-7.16 Read-time evaluation with #.
+8.16 Read-time evaluation with #.
 
 > Macros occur at compile-time. But Common Lisp blurs the lines between read time, compile time and run time. This allows to execute code at READ time.
 
-7.17 EDITOR TOOL: macrostep **(FREE PREVIEW, Lem demo)**
+8.17 EDITOR TOOL: macrostep **(FREE PREVIEW, Lem demo)**
 
 > Macrostep is an editor extension that helps understand our macro expansions. It is only available in Sly and Lem. We demo with the Lem editor.
 
@@ -374,6 +390,7 @@ In parallel, I want to **create shorter videos on other topics**. I'll see if in
 
 # Issues
 
+- the course is a bit steep for beginners.
 - sound: my first videos have a meh sound. I quickly bought a new microphone (January, 2022) for the following ones, starting with "Lisp syntax and evaluation model". Now, the majority of the chapters have a good sound. I re-recorded 1 video already and I'll eventually fix the rest.
 
 # Feedback
@@ -383,6 +400,10 @@ I would like very much to have your feedback on the course, alongside your backg
 If you want to correct my (cute) accent, be my guest!
 
 Here is some feedback from people who took the course:
+
+> I've only just started the course, but I'm learning a lot. Well explained, and taught at a good pace. So far so good.
+
+Squinton C, April 2024.
 
 > Thank you for the Cookbook (and the Udemy course, it's from you as well, right?), both have been invaluable resources!
 
