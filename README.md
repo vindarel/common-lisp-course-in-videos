@@ -316,6 +316,13 @@ When writing macros, we have the full power of Common Lisp at compile time. This
 
 > Macrostep is an editor extension that helps understand our macro expansions. It is only available in Sly and Lem. We demo with the Lem editor.
 
+## Section 9: additional and optional
+
+9.1 Scripting with batteries included
+
+> I demo what may be the simplest method to run some Lisp code as of today. We use a simple to install binary that allows to run lisp files as scripts, with many third-party libraries already baked-in. We request an HTTP endpoint and we parse it in JSON, without resorting to Quicklisp, and our script starts fast: we don't wait for the libraries to load. I show built-in scripts: a simple HTTP server to serve a local directory, a simple web app with routes, how to watch and auto-reload files.
+
+> This is a new tool still in development, so I'll call it a bonus and not an official, standard way. Hope you find it useful though. I sure do.
 
 
 # Who is this course for
