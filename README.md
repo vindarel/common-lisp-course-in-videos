@@ -372,8 +372,8 @@ More content:
 - [X] iteration
 - [X] systems and packages
 - [X] the condition system
-- CLOS (see the Cookbook for now)
-- [X] macros => **NEW in September, 2023**.
+- [-] CLOS **ONGOING** (first videos uploaded, more to come, as of June, 2024)
+- [X] macros
 - IDEs:
   - working with SLIME
   - ~~Atom~~ Pulsar and SLIMA
@@ -381,8 +381,8 @@ More content:
 
 And also:
 
-- creating CLI apps
-- web applications
+- creating CLI apps (see Youtube)
+- web applications (see Youtube)
 - …
 
 # Demos on Youtube
