@@ -353,6 +353,53 @@ If you are a proficient programmer and you want to go to the essentials:
   - have a look at our exercise ideas
 - be demanding but don't be in a rush.
 
+# Index: external libraries and tools we meet on the course
+
+We don't only see theory, I give on hints on real-world Common Lisp here and there, included important libraries of the ecosystem.
+
+- UIOP (shipped in most implementations, showcased in many places)
+  - `uiop:getenv` => lecture #2
+  - `uiop:file-exists` and all => LISP BASICS, conditionals
+  - `uiop:with-collecting` => last lecture of the ITERATION chapter.
+  - `uiop:define-package` => WORKING WITH PROJECTS, last lecture.
+- for (iteration) => ITERATION, lecture "Iterating over lists an vectors"
+- Alexandria (general purpose utilities) for `hash-table-values` => ITERATION, lecture "Iterating over a hash-table"
+- do-list (iteration) => same
+- dexador (HTTP requests)
+- log4cl (logging) => MACROS, lecture "with-echo example"
+- easy-routes (web routing) => MACROS chapter, lecture "real-time evaluation with #."
+- defstar => MACROS, lecture "two example macros"
+- serapeum for `ecase-of` => MACROS, lecture "two example macros"
+- physical-quantities, measures => MACROS, lecture "Compile-time computing"
+- cl-project, cl-cookieproject => WORKING WITH PROJECTS, "How to create a new project"
+
+On editors:
+
+- Slime:
+  - "Working with projects" lecture 1
+- Lem editor for its macrostep feature => MACROS, lecture "Editor tool: macrostep"
+- Portacle => Getting started, lecture on Portacle
+
+Just a mention:
+
+- trivia (pattern matching) => LISP BASICS, lecture "Conditionals"
+- s-expression-syntax, concrete-syntax-tree, hu.dwim.walker => MACROS chapter, lecture "Lists VS AST"
+
+On the complementary Youtube videos:
+
+- str (string manipulation)
+- dexador (HTTP requests)
+- shasht (JSON)
+- `serapeum:dict`
+- easy-routes (routing)
+- Djula (HTML templates)
+- cl-project (quick project creation)
+
+# Example sources
+
+See the `chapters/` directory, we ship example code that we discuss in the videos.
+
+
 # Exercises
 
 See the `exercises/` directory. Here are ideas that you are able to do at the end of each chapter.
@@ -381,8 +428,10 @@ More content:
 
 And also:
 
-- creating CLI apps (see Youtube)
-- web applications (see Youtube)
+- [How to create a new Lisp project with our project generator](https://www.youtube.com/watch?v=XFc513MJjos&lc=UgzgfiyQZNHWJqAbkpR4AaABAg)
+- [How to call a REST API in Common Lisp: HTTP requests, JSON parsing, building a binary, accessing CLI parameters](https://www.youtube.com/watch?v=TAtwcBh1QLg)
+- [How to build a web application in Common Lisp (part 1)](https://www.youtube.com/watch?v=h_noB1sI_e8)
+- [How to build a web application in Common Lisp (part 2)](https://www.youtube.com/watch?v=EFRVHmOCE7Q)
 - …
 
 # Demos on Youtube
@@ -398,7 +447,7 @@ In parallel, I want to **create shorter videos on other topics**. I'll see if in
 # Issues
 
 - the course is a bit steep for beginners.
-- sound: my first videos have a meh sound. I quickly bought a new microphone (January, 2022) for the following ones, starting with "Lisp syntax and evaluation model". Now, the majority of the chapters have a good sound. I re-recorded 1 video already and I'll eventually fix the rest.
+- sound: my first videos have a meh sound. I quickly bought a new microphone (January, 2022) for the following ones, starting with "Lisp syntax and evaluation model". Now, the majority of the chapters have a good sound. I re-recorded a couple videos already and I'll eventually fix the rest.
 
 # Feedback
 
