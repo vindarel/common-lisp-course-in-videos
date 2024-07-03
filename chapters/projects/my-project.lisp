@@ -1,9 +1,8 @@
 
-(in-package :cl-user)
 (defpackage :mytestpackage
   (:use :cl)
-  (:import :ppcre
-           :scan)
+  (:import-from :ppcre  ;; import one symbol from this library
+   :parse-string)
   (:export :*fisrt-symbol*))
 
 (in-package :mytestpackage)
