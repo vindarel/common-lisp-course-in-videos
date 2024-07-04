@@ -30,14 +30,23 @@ to written resources such as the
 [awesome-cl](https://github.com/CodyReichert/awesome-cl) and my
 [lisp-journey blog](https://lisp-journey.gitlab.io/) but I want to do more.
 
-You can now **learn Common Lisp with my [videos on the Udemy platform](https://www.udemy.com/course/common-lisp-programming/?referralCode=2F3D698BBC4326F94358)**. At the time of writing, I consider it half done (but the chapters there are complete). If you subscribe now, you'll have access to the new content that I'm working on. I truly believe this course to be **the most effective way to learn Common Lisp today**. I am genuinely happy to share all that with you.
+You can now **learn Common Lisp with my [videos on the Udemy platform](https://www.udemy.com/course/common-lisp-programming/?referralCode=2F3D698BBC4326F94358)**. At the time of writing, I consider it ~~half done~~ 70% done (but the chapters there are complete). If you subscribe now, you'll have access to the new content that I'm working on. I truly believe this course to be **the most effective way to learn Common Lisp today**. I am genuinely happy to share all that with you.
 
 This course is the result of my experience writing new material,
 answering questions, writing libraries, software, demos, starter kits,
 contributing to and starting ambitious projects (Nyxt, Lem, CIEL…)
 and using CL in production© [^1]. I run my own small business [^2].
 
+Be aware, however, that *the course is not for total beginners* in a
+Lisp language. You must know what a Lisp language is, and have a
+minimal programming experience (know what variables and functions
+are). I don't teach "Lisp", although I give a quick overview of Lisp
+basics, of course (syntax, evaluation model). But I quickly dive into
+"the Common Lisp way". I prefer to teach advanced, real-world Common
+Lisp concepts.
+
 *Let's celebrate 1001 learners! Here's a [60% coupon until 14th March, 2024](https://www.udemy.com/course/common-lisp-programming/?couponCode=CELEBRATE1001).* *If you are a student, drop me a line for a free link.*
+
 Here's what you'll learn.
 
 <p align="center">
