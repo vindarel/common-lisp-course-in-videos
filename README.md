@@ -224,9 +224,15 @@ What we see:
 
 > DEFCLASS, MAKE-INSTANCE, attributes (aka slots), slot options (initarg, initform, reader, writer, accessor, documentation), slot-value, generic functions, DEFMETHOD, dispatching on built-in types, how objects are lazily updated, Slime inspector actions, manipulating Slime presentations, unbound slots and SLOT-BOUNDP, Slime shortcuts to create objects…
 
-7.2 (upcoming) CLOS crash course, part 2
+7.2 CLOS crash course, part 2
 
 > Inheritance, multimethods, :around, :before and :after methods (think signals and overwriting default methods in other languages, that allow to control what happens when a method is called, if it is called at all), their order of execution, a Slime shortcut to export all symbols of a class at once…
+
+7.3 Pretty printing
+
+Change the default printed representation of objects.
+
+> What we see. PRINT-OBJECT, with print-unreadable-object, the object type, the object identity, classic gotchas.
 
 
 ## section 8: macros
