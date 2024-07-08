@@ -83,7 +83,7 @@ Here's what you'll learn.
 
 # Content
 
-*Total learning material: 6hr 28min and counting, in 47 lectures. Subtitles: english.*
+*Total learning material: 6hr 52min and counting, in 50 lectures. Subtitles: english.*
 
 *Current rating (2024-01): 4.55 / 5 -thank you!*
 
@@ -228,11 +228,11 @@ See exercises in `chapter 6 - condition handling/`.
 
 NEW! I recorded 8 videos on CLOS. I am publishing them one by one, editing subtitles on the way.
 
-CLOS is the famour object system of Common Lisp.
+CLOS is the famously powerful object system of Common Lisp.
 
 What we see:
 
-7.1 CLOS crash course, part 1
+7.1 CLOS crash course, part 1 [FREE PREVIEW]
 
 > DEFCLASS, MAKE-INSTANCE, attributes (aka slots), slot options (initarg, initform, reader, writer, accessor, documentation), slot-value, generic functions, DEFMETHOD, dispatching on built-in types, how objects are lazily updated, Slime inspector actions, manipulating Slime presentations, unbound slots and SLOT-BOUNDP, Slime shortcuts to create objects…
 
@@ -245,6 +245,25 @@ What we see:
 Change the default printed representation of objects.
 
 > What we see. PRINT-OBJECT, with print-unreadable-object, the object type, the object identity, classic gotchas.
+
+7.4. `defclass` review
+
+We give another pass, slower, to DEFCLASS, slot options, MAKE-INSTANCE, and to the fact that accessors are generic functions.
+
+You can skip this one if the crash course was crystal clear.
+
+7.5 Custom constructors
+
+> What we see: writing our own MAKE-PERSON terse constructor. Adding some logic before the object creation, doing side-effects after the object creation: towards INITIALIZE-INSTANCE.
+
+7.6 `initialize-instance`: control if and how any objects are created
+
+> What we see: how to inherit from multiple parent classes and who takes precedence, when the parents define the same slot with each a default value. Quick illustration. We use what is known as a mixin class to add functionality to our class.
+
+7.7 `defgeneric` vs `defmethod`: when to use which, which is better?
+
+> What we see: the use of DEFGENERIC and DEFMETHOD, either separately, either together. DEFGENERIC has a couple advantages in regards to documentation and keeping your code in sync with your image.
+
 
 
 ## section 8: macros
