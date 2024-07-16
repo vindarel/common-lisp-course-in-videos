@@ -494,6 +494,10 @@ If you want to correct my (cute) accent, be my guest!
 
 Here is some feedback from people who took the course:
 
+> Great and succinct intro to a wonderful programming language. Highly recommended for anyone that wants to learn and have fun programming in Common Lisp.
+
+Robert T, July 2024. (*I am puzzled by "intro" but thanks :p*)
+
 > I've only just started the course, but I'm learning a lot. Well explained, and taught at a good pace. So far so good.
 
 Squinton C, April 2024.
