@@ -260,7 +260,11 @@ You can skip this one if the crash course was crystal clear.
 
 > What we see: how to inherit from multiple parent classes and who takes precedence, when the parents define the same slot with each a default value. Quick illustration. We use what is known as a mixin class to add functionality to our class.
 
-7.7 `defgeneric` vs `defmethod`: when to use which, which is better?
+7.7 Multiple inheritance
+
+> What we see: how to inherit from multiple parent classes and who takes precedence, when the parents define the same slot with each a default value. Quick illustration. We use what is known as a mixin class to add functionality to our class.
+
+7.8 `defgeneric` vs `defmethod`: when to use which, which is better?
 
 > What we see: the use of DEFGENERIC and DEFMETHOD, either separately, either together. DEFGENERIC has a couple advantages in regards to documentation and keeping your code in sync with your image.
 
