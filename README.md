@@ -226,7 +226,7 @@ See exercises in `chapter 6 - condition handling/`.
 
 ## section 7: the Common Lisp Object System (CLOS) (NEW! as of July, 2024)
 
-NEW! I recorded 8 videos on CLOS. I am publishing them one by one, editing subtitles on the way.
+NEW! I recorded 8 videos on CLOS. Subtitles are ready.
 
 CLOS is the famously powerful object system of Common Lisp.
 
