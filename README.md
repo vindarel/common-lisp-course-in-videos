@@ -230,6 +230,8 @@ NEW! I recorded 8 videos on CLOS. Subtitles are ready.
 
 CLOS is the famously powerful object system of Common Lisp.
 
+Learners of my course will **know enough to read real-world Common Lisp projects** such as the Hunchentoot **web server** or the Kandria **game**!
+
 What we see:
 
 7.1 CLOS crash course, part 1 [FREE PREVIEW]
