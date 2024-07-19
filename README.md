@@ -239,6 +239,12 @@ What we see:
 
 > DEFCLASS, MAKE-INSTANCE, attributes (aka slots), slot options (initarg, initform, reader, writer, accessor, documentation), slot-value, generic functions, DEFMETHOD, dispatching on built-in types, how objects are lazily updated, Slime inspector actions, manipulating Slime presentations, unbound slots and SLOT-BOUNDP, Slime shortcuts to create objects…
 
+7.1b Quizz: CLOS crash test
+
+Quick questions to test your knowledge and practice your reading of code.
+
+Spot the well formed and malformed class definitions.
+
 7.2 CLOS crash course, part 2
 
 > Inheritance, multimethods, :around, :before and :after methods (think signals and overwriting default methods in other languages, that allow to control what happens when a method is called, if it is called at all), their order of execution, a Slime shortcut to export all symbols of a class at once…
@@ -271,6 +277,9 @@ You can skip this one if the crash course was crystal clear.
 
 > What we see: the use of DEFGENERIC and DEFMETHOD, either separately, either together. DEFGENERIC has a couple advantages in regards to documentation and keeping your code in sync with your image.
 
+7.8b Quizz: reading code from real-world projects. Can you read these?
+
+You know enough CLOS to read the sources of a web server (Hunchentoot) and a game (Kandria). Bravo!
 
 
 ## section 8: macros
