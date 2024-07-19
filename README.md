@@ -45,7 +45,8 @@ basics, of course (syntax, evaluation model). But I quickly dive into
 "the Common Lisp way". I prefer to teach advanced, real-world Common
 Lisp concepts.
 
-*Let's celebrate 1001 learners! Here's a [60% coupon until 14th March, 2024](https://www.udemy.com/course/common-lisp-programming/?couponCode=CELEBRATE1001).* *If you are a student, drop me a line for a free link.*
+*NEW chapter: CLOS! Here's a [60% coupon for July and August, 2024](https://www.udemy.com/course/common-lisp-programming/?couponCode=CLOS-FOR-SUMMER).*
+*If you are a student, drop me a line for a free link.*
 
 Here's what you'll learn.
 
