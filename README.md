@@ -97,7 +97,7 @@ Here's what you'll learn.
 
 ## Section 1: Getting Started
 
-1.1. Install SBCL [🆓 free preview]
+1.1. Install SBCL **[🆓 FREE PREVIEW]**
 
 > What we see: install the SBCL implementation (on a Debian system), start it, write "hello world", understand the output, add readline support to the SBCL default REPL in the terminal, disable the interactive debugger, a few words on Lisp implementations and GNU CLISP in particular.
 
@@ -111,7 +111,7 @@ Here's what you'll learn.
 
 ## section 2: Lisp Basics
 
-2.1. Lisp syntax and evaluation model [🆓 free preview]
+2.1. Lisp syntax and evaluation model **[🆓 FREE PREVIEW]**
 
 *I got a whole brand new microphone for that one, sound is great!*
 
@@ -128,7 +128,7 @@ Here's what you'll learn.
 
 ## section 3: iteration
 
-3.1 Iterating over lists and vectors [🆓 free preview]
+3.1 Iterating over lists and vectors **[🆓 FREE PREVIEW]**
 
 > What we see: LOOP in/across and its various accumulating clauses, dolist, for:for, coerce.
 
@@ -147,7 +147,7 @@ Here's what you'll learn.
 
 ## section 4: all about functions
 
-4.1. How to create named functions, how to handle all types of arguments [🆓 free preview]
+4.1. How to create named functions, how to handle all types of arguments **[🆓 FREE PREVIEW]**
 
 > What we see: defun, returned values, required arguments, optional arguments, key arguments, how to set a default value, how to know if an argument was supplied, &rest, example of apply, example of an inline assertion under a feature flag.
 
@@ -193,7 +193,7 @@ As a complement, see this video: [cl-cookieproject demo](https://www.youtube.com
 
 ## section 6: the Condition Handling System
 
-6.1 How to create an error, a warning and a simple-condition [🆓 free preview]
+6.1 How to create an error, a warning and a simple-condition **[🆓 FREE PREVIEW]**
 
 > What we see: the ERROR and WARNING functions, MAKE-CONDITION and SIGNAL. What are simple conditions good for?
 
@@ -229,7 +229,7 @@ Learners of my course will **know enough to read real-world Common Lisp projects
 
 What we see:
 
-7.1 CLOS crash course, part 1 [FREE PREVIEW]
+7.1 CLOS crash course, part 1 **[🆓 FREE PREVIEW]**
 
 > DEFCLASS, MAKE-INSTANCE, attributes (aka slots), slot options (initarg, initform, reader, writer, accessor, documentation), slot-value, generic functions, DEFMETHOD, dispatching on built-in types, how objects are lazily updated, Slime inspector actions, manipulating Slime presentations, unbound slots and SLOT-BOUNDP, Slime shortcuts to create objects…
 
