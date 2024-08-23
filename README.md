@@ -105,12 +105,6 @@ Here's what you'll learn.
 
 > What we see: we write a code snippet with a simple text editor and we run it with sbcl's --script and --load flags. We use the LOAD function to reload & recompile our file while we are still in the Lisp image.
 
-1.3. 🚀 BONUS - Scripting with batteries included [NEW as of April, 2023]
-
-> I demo what may be the simplest method to run some Lisp code as of today. We use a simple to install a binary that allows to run lisp files as scripts, with many third-party libraries already baked-in. We request an HTTP endpoint and we parse it in JSON, without resorting to Quicklisp, and our script starts fast: we don't wait for the libraries to load. I show built-in scripts: a simple HTTP server to serve a local directory, a simple web app with routes, how to watch and auto-reload files.
-
-> This is a new tool still in development, so I'll call it a bonus and not an official, standard way. Hope you find it useful though. I sure do.
-
 1.4. Portacle: a portable, multiplatform, ready-to-use Common Lisp IDE
 
 > Portacle allows to get started with a Common Lisp editor in 3 clicks, on Windows, MacOS and Linux. It provides: Emacs, SBCL, Quicklisp (the package manager), SLIME (the Superior Lisp Integration Mode for Emacs) as well as SLY, Git and Magit (the famous Emacs package). If you already know Emacs: you can stop watching at 9'. We first see: what is Portacle and where to get it, what it provides, some custom integrations (M-x create-project, the tree project explorer, company-mode and paredit-mode). Then, we continue with a more in-depth exploration, so you can find your way inside Emacs (buffer management, file management, Lisp code evaluation, how to create and quickload a project, Magit, how to use the help system…).
@@ -371,7 +365,7 @@ When writing macros, we have the full power of Common Lisp at compile time. This
 
 ## Section 9: additional and optional
 
-9.1 Scripting with batteries included
+9.1 🚀 Scripting with batteries included
 
 > I demo what may be the simplest method to run some Lisp code as of today. We use a simple to install binary that allows to run lisp files as scripts, with many third-party libraries already baked-in. We request an HTTP endpoint and we parse it in JSON, without resorting to Quicklisp, and our script starts fast: we don't wait for the libraries to load. I show built-in scripts: a simple HTTP server to serve a local directory, a simple web app with routes, how to watch and auto-reload files.
 
