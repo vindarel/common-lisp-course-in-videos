@@ -84,7 +84,7 @@ Here's what you'll learn.
 
 # Content
 
-*Total learning material: 7hr 6min and counting, in 50 lectures. Subtitles: english.*
+*Total learning material: 7hr 12min and counting, in 51 lectures. Subtitles: english.*
 
 *Current rating (2024-01): 4.55 / 5 -thank you!*
 
@@ -274,6 +274,10 @@ You can skip this one if the crash course was crystal clear.
 7.8b Quizz: reading code from real-world projects. Can you read these?
 
 You know enough CLOS to read the sources of a web server (Hunchentoot) and a game (Kandria). Bravo!
+
+7.9 Class allocation
+
+> What we see: the default :allocation :instance VS :allocation :class. How to automatically count how many objects of a class are created.
 
 
 ## section 8: macros
