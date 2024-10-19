@@ -15,6 +15,9 @@
 
 </p>
 
+*NEW chapter: CLOS! Here's a [60% coupon for July and August, 2024](https://www.udemy.com/course/common-lisp-programming/?couponCode=CLOS-FOR-SUMMER).* *If you are a student, drop me a line for a free link.*
+
+
 <div style="width: 100%;">
   <img src="announce.svg" style="width: 100%;" alt="New in September, 2023: 17 videos on macros.">
 </div>
@@ -45,8 +48,23 @@ basics, of course (syntax, evaluation model). But I quickly dive into
 "the Common Lisp way". I prefer to teach advanced, real-world Common
 Lisp concepts.
 
-*NEW chapter: CLOS! Here's a [60% coupon for July and August, 2024](https://www.udemy.com/course/common-lisp-programming/?couponCode=CLOS-FOR-SUMMER).*
-*If you are a student, drop me a line for a free link.*
+
+The course is to my relief well received. You'll find more feedback below, here's a recent one:
+
+> I have done some preliminary Common Lisp exploration prior to this course but had a lot of questions regarding practical use and development workflows. This course was amazing for this! I learned a lot of useful techniques for actually writing the code in Emacs, as well as conversational explanations of concepts that had previously confused me in text-heavy resources. Please keep up the good work and continue with this line of topics, it is well worth the price!
+
+@Preston, October of 2024 <3
+
+According to learners, the areas I could improve are:
+- give more practice activities (Udemy doesn't support Lisp in coding exercises though), and
+- make the videos more engaging.
+
+Points taken.
+
+Also according to them, the criteria
+- "Is the instructor knowledgeable about the topic?" tops at 97% satisfaction, and
+- "Are you learning valuable information?" is at 91%.
+
 
 Here's what you'll learn.
 
@@ -507,6 +525,10 @@ I would like very much to have your feedback on the course, alongside your backg
 If you want to correct my (cute) accent, be my guest!
 
 Here is some feedback from people who took the course:
+
+> I have done some preliminary Common Lisp exploration prior to this course but had a lot of questions regarding practical use and development workflows. This course was amazing for this! I learned a lot of useful techniques for actually writing the code in Emacs, as well as conversational explanations of concepts that had previously confused me in text-heavy resources. Please keep up the good work and continue with this line of topics, it is well worth the price!
+
+Preston, October 2024.
 
 > Great and succinct intro to a wonderful programming language. Highly recommended for anyone that wants to learn and have fun programming in Common Lisp.
 
