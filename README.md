@@ -528,7 +528,11 @@ Here is some feedback from people who took the course:
 
 > I have done some preliminary Common Lisp exploration prior to this course but had a lot of questions regarding practical use and development workflows. This course was amazing for this! I learned a lot of useful techniques for actually writing the code in Emacs, as well as conversational explanations of concepts that had previously confused me in text-heavy resources. Please keep up the good work and continue with this line of topics, it is well worth the price!
 
-Preston, October 2024.
+Preston, October 2024
+
+> The instructor shows lots of tricks.
+
+Tom, November 2024
 
 > Great and succinct intro to a wonderful programming language. Highly recommended for anyone that wants to learn and have fun programming in Common Lisp.
 
