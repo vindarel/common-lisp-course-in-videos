@@ -104,7 +104,7 @@ Here's what you'll learn.
 
 *Total learning material: 7hr 12min and counting, in 51 lectures. Subtitles: english.*
 
-*Current rating (2024-01): 4.55 / 5 -thank you!*
+*Current rating (2024-11): 4.58 / 5 -thank you!*
 
 
 ## Introduction video
