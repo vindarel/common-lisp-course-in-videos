@@ -532,7 +532,11 @@ Preston, October 2024
 
 > The instructor shows lots of tricks.
 
-Tom, November 2024
+Tom, November 2024 o/
+
+> Excellent selection of content. The delivery is not always obvious just for watching, but when I do the examples, it’s absolutely clear that what I need to be learning has been presented.
+
+Steven, November 2024 <3
 
 > Great and succinct intro to a wonderful programming language. Highly recommended for anyone that wants to learn and have fun programming in Common Lisp.
 
