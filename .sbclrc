@@ -76,7 +76,7 @@
 ;; You can do this if you are using SBCL in the terminal,
 ;; but I don't advise to do this when you are using a real IDE like Slime, use the debugger!
 
-(uiop:format! t "*** reminder: we now disable the interactive debugger. Remove this setting from ~/.sbclrc when using Slime or another IDE. *****")
+(uiop:format! t "*** reminder: we now disable the interactive debugger. Remove this setting from ~~/.sbclrc when using Slime or another IDE. *****")
 (setf *debugger-hook* #'print-condition-hook)
 
 
