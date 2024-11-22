@@ -55,10 +55,9 @@
 ;;; The following lines are added by ql:add-to-init-file when you install Quicklisp:
 #-quicklisp
 (let ((quicklisp-init (merge-pathnames "quicklisp/setup.lisp"
-                                       "/home/vince/")))  ;; <--- warning, hard-coded USER name.
+                                       (user-homedir-pathname))))
   (when (probe-file quicklisp-init)
     (load quicklisp-init)))
-
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Disable the interactive debugger
