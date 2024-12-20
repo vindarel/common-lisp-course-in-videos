@@ -279,7 +279,8 @@ You can skip this one if the crash course was crystal clear.
 
 7.6 `initialize-instance`: control if and how any objects are created
 
-> What we see: how to inherit from multiple parent classes and who takes precedence, when the parents define the same slot with each a default value. Quick illustration. We use what is known as a mixin class to add functionality to our class.
+> What we see: defining a :before and an :after method of INITIALIZE-INSTANCE for our person class, in order to do the same logic than with our custom constructor, but with a built-in CL Object System mechanism. Note that using INITIALIZE-INSTANCE isn't a must, only a "can", that you can use for your own classes, or to control the creation of objects from other systems.
+
 
 7.7 Multiple inheritance
 
