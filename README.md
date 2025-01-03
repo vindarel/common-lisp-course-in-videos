@@ -531,6 +531,18 @@ Here is some feedback from people who took the course:
 
 Preston, October 2024
 
+> Wonderful! If you want Common Lisp - come here!
+
+Jamie, December 2024
+
+> I've been a dabbler in various Lisps for years, from CL to Racket to Clojure and more I'm forgetting. I need to spend more time with some parts (Macros are always a dense topic) but I feel better equipped after watching this series than I did before to build real apps using Common Lisp.
+
+Patrick, December 2024
+
+> That error trap hack was handy. It's nice to learn something new right off the bat with this course. Thank you!
+
+Jovan, December 2024
+
 > The instructor shows lots of tricks.
 
 Tom, November 2024 o/
