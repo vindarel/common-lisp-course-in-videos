@@ -531,6 +531,10 @@ Here is some feedback from people who took the course:
 
 intergallactic_llama, January 2025 (reddit)
 
+> I can vouch for the Udemy course. From the very first lesson, just firing up the REPL and Emacs/SLIME I was taught something new. It's a great course.
+
+fuzzmonkey35, January 2025 (reddit)
+
 > I have done some preliminary Common Lisp exploration prior to this course but had a lot of questions regarding practical use and development workflows. This course was amazing for this! I learned a lot of useful techniques for actually writing the code in Emacs, as well as conversational explanations of concepts that had previously confused me in text-heavy resources. Please keep up the good work and continue with this line of topics, it is well worth the price!
 
 Preston, October 2024
