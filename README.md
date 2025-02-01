@@ -527,6 +527,10 @@ If you want to correct my (cute) accent, be my guest!
 
 Here is some feedback from people who took the course:
 
+> It is an amazing tutorial. What is really strange is I thought CLOS was complicated. I guess it can be but Vincent is amazing at explaining everything and demystifying it.
+
+intergallactic_llama, January 2025 (reddit)
+
 > I have done some preliminary Common Lisp exploration prior to this course but had a lot of questions regarding practical use and development workflows. This course was amazing for this! I learned a lot of useful techniques for actually writing the code in Emacs, as well as conversational explanations of concepts that had previously confused me in text-heavy resources. Please keep up the good work and continue with this line of topics, it is well worth the price!
 
 Preston, October 2024
