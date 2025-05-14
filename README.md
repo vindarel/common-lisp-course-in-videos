@@ -9,7 +9,6 @@
   <a href="https://www.udemy.com/course/common-lisp-programming/?referralCode=2F3D698BBC4326F94358"><b> The course </b></a> |
   <a href="https://lisp-journey.gitlab.io/"><b> Blog </b></a> |
   <a href="https://framapiaf.org/@vindarel"><b> Mastodon </b></a> |
-  <a href="https://twitter.com/vindarel"><b> Twitter </b></a>
 
   <h4> Learn the Lisp language and its ecosystem, become an effective programmer and learn how to write real-world applications. Avoid all the traps that I faced during my journey. </h4>
 
