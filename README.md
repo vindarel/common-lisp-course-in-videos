@@ -14,11 +14,11 @@
 
 </p>
 
-*NEW chapter: CLOS! Here's a [60% coupon for July and August, 2024](https://www.udemy.com/course/common-lisp-programming/?couponCode=CLOS-FOR-SUMMER).* *If you are a student, drop me a line for a free link.*
+*NEW chapter: CLOS! Here's a [50% coupon for busy coders in 2025](https://www.udemy.com/course/common-lisp-programming/?couponCode=BUSYCODERS2025).* *If you are a student, drop me a line for a free link.*
 
 
 <div style="width: 100%;">
-  <img src="announce.svg" style="width: 100%;" alt="New in September, 2023: 17 videos on macros.">
+  <img src="announce.svg" style="width: 100%;" alt="New chapter: the Common Lisp Object System">
 </div>
 
 
