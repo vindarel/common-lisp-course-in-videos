@@ -534,6 +534,10 @@ intergallactic_llama, January 2025 (reddit)
 
 fuzzmonkey35, January 2025 (reddit)
 
+> I started my Lisp journey faster because of your course in Udemy. I was still in the variables part of the Practical Common Lisp book lolol.
+
+Matka, March 2025 (Discord)
+
 > I have done some preliminary Common Lisp exploration prior to this course but had a lot of questions regarding practical use and development workflows. This course was amazing for this! I learned a lot of useful techniques for actually writing the code in Emacs, as well as conversational explanations of concepts that had previously confused me in text-heavy resources. Please keep up the good work and continue with this line of topics, it is well worth the price!
 
 Preston, October 2024
