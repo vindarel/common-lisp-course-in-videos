@@ -2,7 +2,7 @@
 
 <p>
   <h2 align="center"> Common Lisp Programming Course </h2>
-  <h3 align="center"> Learn Lisp effectively, in videos </h3>
+  <h3 align="center"> Learn Lisp efficiently, in videos </h3>
 </p>
 
 <p align="center">
