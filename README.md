@@ -47,6 +47,9 @@ basics, of course (syntax, evaluation model). But I quickly dive into
 "the Common Lisp way". I prefer to teach advanced, real-world Common
 Lisp concepts.
 
+> [!NOTE]
+> I now do one-to-one training sessions. I started in January of 2025 (thanks, Ari). We settled on USD 40$ an hour. You can contact me by email.
+
 
 The course is to my relief well received. You'll find more feedback below, here's a recent one:
 
