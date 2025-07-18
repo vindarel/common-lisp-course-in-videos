@@ -530,6 +530,10 @@ If you want to correct my (cute) accent, be my guest!
 
 Here is some feedback from people who took the course:
 
+> At lesson 5, so far, so good. It might be a little challenging to follow for someone who has never programmed before or used Emacs, but fortunately, that is not my situation. I saw some different perspectives on Lisp concepts that helped solidify certain things for me, so overall, it's been a good course so far. Looking forward to the CLOS module, and the extras, such as the web development tutorial link, were a welcome surprise to see here.
+
+Stephen, July 2025
+
 > I had experimented a little with common lisp but was unsure about tooling and the making applications, although I have only finished the first video I love the approach taken by the teacher and I appreciate how much he has contributed freely to the common lisp eco system.
 
 Justin, July 2025
