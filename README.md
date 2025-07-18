@@ -529,6 +529,10 @@ If you want to correct my (cute) accent, be my guest!
 
 Here is some feedback from people who took the course:
 
+> I had experimented a little with common lisp but was unsure about tooling and the making applications, although I have only finished the first video I love the approach taken by the teacher and I appreciate how much he has contributed freely to the common lisp eco system.
+
+Justin, July 2025
+
 > It is an amazing tutorial. What is really strange is I thought CLOS was complicated. I guess it can be but Vincent is amazing at explaining everything and demystifying it.
 
 intergallactic_llama, January 2025 (reddit)
