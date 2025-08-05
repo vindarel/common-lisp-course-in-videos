@@ -530,6 +530,17 @@ If you want to correct my (cute) accent, be my guest!
 
 Here is some feedback from people who took the course:
 
+> [The employees that we train in Common Lisp] said they can understand you very well, and that your approach is gentle.
+>
+> **They said you do a better job of teaching than Peter Seibel**.
+
+ebbzry, CEO of VedaInc, August 2025 on Discord. O_o 🔥
+
+> Enjoyed it so much. Really did a good job dumbing it down specially on section 2: feels like I breezed over chapter 1 and 2 of PCL. His voice, a little mono though. I'd say that's my only criticism.
+
+Sir_ben, trainee of VedaInc, on Discord.
+
+
 > At lesson 5, so far, so good. It might be a little challenging to follow for someone who has never programmed before or used Emacs, but fortunately, that is not my situation. I saw some different perspectives on Lisp concepts that helped solidify certain things for me, so overall, it's been a good course so far. Looking forward to the CLOS module, and the extras, such as the web development tutorial link, were a welcome surprise to see here.
 
 Stephen, July 2025
