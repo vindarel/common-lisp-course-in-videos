@@ -15,7 +15,7 @@
 
 </p>
 
-*NEW chapter: CLOS! Here's a [50% coupon for busy coders in 2025](https://www.udemy.com/course/common-lisp-programming/?couponCode=BUSYCODERS2025).* *If you are a student, drop me a line for a free link.*
+*NEW chapter: DATA STRUCTURES! Here's a [50% coupon for busy coders in 2025](https://www.udemy.com/course/common-lisp-programming/?couponCode=BUSYCODERS2025).* *If you are a student, drop me a line for a free link.*
 
 
 <div style="width: 100%;">
@@ -34,7 +34,7 @@ to written resources such as the
 [Web Apps in Lisp - Know-How](https://web-apps-in-lisp.github.io/) and my
 [lisp-journey blog](https://lisp-journey.gitlab.io/) but I want to do more.
 
-You can now **learn Common Lisp with my [videos on the Udemy platform](https://www.udemy.com/course/common-lisp-programming/?referralCode=2F3D698BBC4326F94358)**. At the time of writing, I consider it ~~half done~~ 70% done (but the chapters there are complete). If you subscribe now, you'll have access to the new content that I'm working on. I truly believe this course to be **the most effective way to learn Common Lisp today**. I am genuinely happy to share all that with you.
+You can now **learn Common Lisp with my [videos on the Udemy platform](https://www.udemy.com/course/common-lisp-programming/?referralCode=2F3D698BBC4326F94358)**. At the time of writing, I consider it ~~half done~~ ~~70%~~ 80% done (but the chapters there are complete). If you subscribe now, you'll have access to the new content that I'm working on. I truly believe this course to be **the most effective way to learn Common Lisp today**. I am genuinely happy to share all that with you.
 
 This course is the result of my experience writing new material,
 answering questions, writing libraries, software, demos, starter kits,
@@ -55,9 +55,16 @@ Lisp concepts.
 
 The course is to my relief well received. You'll find more feedback below, here's a recent one:
 
+> **[My employees] said you do a better job of teaching than Peter Seibel**.
+
+ebbzry, CEO of VedaInc, August 2025 on Discord. O_o 🔥
+
+or again:
+
 > I have done some preliminary Common Lisp exploration prior to this course but had a lot of questions regarding practical use and development workflows. This course was amazing for this! I learned a lot of useful techniques for actually writing the code in Emacs, as well as conversational explanations of concepts that had previously confused me in text-heavy resources. Please keep up the good work and continue with this line of topics, it is well worth the price!
 
 @Preston, October of 2024 <3
+
 
 According to learners, the areas I could improve are:
 - give more practice activities (Udemy doesn't support Lisp in coding exercises though), and
@@ -80,16 +87,17 @@ Here's what you'll learn.
 **Table of Contents**
 
 - [Content](#content)
-    - [Introduction video](#introduction-video)
-    - [Section 1: Getting Started](#section-1-getting-started)
-    - [section 2: Lisp Basics](#section-2-lisp-basics)
-    - [section 3: iteration](#section-3-iteration)
-    - [section 4: all about functions](#section-4-all-about-functions)
-    - [section 5: working with projects](#section-5-working-with-projects)
-    - [section 6: the Condition Handling System](#section-6-the-condition-handling-system)
-    - [section 7: the Common Lisp Object System (CLOS) (NEW! as of July, 2024)](#section-7-the-common-lisp-object-system-clos-new-as-of-july-2024)
-    - [section 8: macros](#section-8-macros)
-    - [Section 9: additional and optional](#section-9-additional-and-optional)
+  - [Introduction video](#introduction-video)
+  - [Section 1: Getting Started](#section-1-getting-started)
+  - [section 2: Lisp Basics](#section-2-lisp-basics)
+  - [section 3: data structures (NEW! As of November, 2025)](#section-3-data-structures-new-as-of-november-2025)
+  - [section 4: iteration](#section-4-iteration)
+  - [section 5: all about functions](#section-5-all-about-functions)
+  - [section 6: working with projects](#section-6-working-with-projects)
+  - [section 7: the Condition Handling System](#section-7-the-condition-handling-system)
+  - [section 8: the Common Lisp Object System (CLOS) (July, 2024)](#section-8-the-common-lisp-object-system-clos-july-2024)
+  - [section 9: macros](#section-9-macros)
+  - [Section 10: additional and optional content](#section-10-additional-and-optional-content)
 - [Who is this course for](#who-is-this-course-for)
 - [How to best use this course if you are already a programmer](#how-to-best-use-this-course-if-you-are-already-a-programmer)
 - [Index: external libraries and tools we meet on the course](#index-external-libraries-and-tools-we-meet-on-the-course)
@@ -106,7 +114,7 @@ Here's what you'll learn.
 
 # Content
 
-*Total learning material: 7hr 12min and counting, in 51 lectures. Subtitles: english.*
+*Total learning material: 8.40 hours and counting, in 61 lectures. Subtitles: english.*
 
 *Current rating (2024-12): 4.71 / 5 -thank you!*
 
@@ -148,100 +156,139 @@ Here's what you'll learn.
 > What we see: if, when, unless, cond, case, the or shortcut, the #+(or) "\*features\*" trick, an example where we load a lispy configuration file.
 
 
-## section 3: iteration
+## section 3: data structures (NEW! As of November, 2025)
 
-3.1 Iterating over lists and vectors **[🆓 FREE PREVIEW]**
+3.1 Intro **[🆓 FREE PREVIEW]**
+
+> Common Lisp has more than lists: hash-tables (aka dictionaries), arrays, as well as sets and tree operations. Linked lists are made of "CONS" cells. You should adopt a functional style in your own functions, and avoid the built-ins that mutate data. We see how, and I give you more pointers for modern Common Lisp.
+
+3.2 Lists: create lists, plists, alists
+
+> What we see: how to create lists (proper lists, plists and alists). A first warning about the '(1 2 3) notation with a quote.
+
+3.3 Lists (2): lists manipulation
+
+> Lists, continued. What we see: how to access elements: FIRST, REST, LAST, NTH…
+
+3.4 Equality - working with strings gotcha
+
+> What we see: explanation of the different equality functions and why knowing this is necessary when working with strings. EQ, EQL, EQUAL, EQUALP (and STRING= et all) explained. Which is too low-level, which you'll use most often.
+
+3.5 Vectors and arrays
+
+> What we see: vectors (one-dimensional arrays), multi-dimensional arrays, VECTOR-PUSH[-EXTEND], the fill-pointer, adjustable arrays, AREF, VECTOR-POP, COERCE, iteration across arrays (LOOP, MAP).
+
+3.6 The CONS cell
+
+> A "CONS cell" is the building block of Common Lisp's (linked) lists. What do "cons", "car" and "cdr" even mean?
+
+3.7 The :test and :keys arguments
+
+> All CL built-in functions accept a :TEST and :KEY argument. They are great. What we see: when and how to use them, when working with strings and with compound objects (lists of lists, lists of structs, etc).
+
+3.8 Hash-tables and fixing their two ergonomic flaws **[🆓 FREE PREVIEW]**
+
+> Hash-tables (dictionaries, hash maps etc) are efficient key-value stores. However, as a newcomer, I had them in gripe. They were not easy enough to work with. I show you everything that's needed to work with hash-tables, and my best solution for better ergonomics.
+
+3.9 Using QUOTE to create lists is NOT THE SAME as using the LIST function. Gotchas and solution.
+
+> Thinking that '(1 2 3) is the same as (list 1 2 3) is a rookie mistake and can lead to subtle bugs. Demo, explanations and simple rule to follow.
+
+
+## section 4: iteration
+
+4.1 Iterating over lists and vectors **[🆓 FREE PREVIEW]**
 
 > What we see: LOOP in/across and its various accumulating clauses, dolist, for:for, coerce.
 
-3.2 Iterating over a hash-table keys and values
+4.2 Iterating over a hash-table keys and values
 
 > What we see: 5 ways in 5 minutes to iterate over a hash-table. (NOTE: you don't imagine all the time that it took me to learn and discover these!!)
 
-3.3 Iterating a fixed or infinite number of times
+4.3 Iterating a fixed or infinite number of times
 
 > What we see: dotimes, the same with loop, looping forever and building our first Lisp REPL.
 
-3.4. Loop: high level overview and gotchas
+4.4. Loop: high level overview and gotchas
 
 > What we see: the structure of LOOP. Two rules to keep in mind. LOOP smells. We enhance an example from an answer of Advent Of Code 2021.
 
 
-## section 4: all about functions
+## section 5: all about functions
 
-4.1. How to create named functions, how to handle all types of arguments **[🆓 FREE PREVIEW]**
+5.1. How to create named functions, how to handle all types of arguments **[🆓 FREE PREVIEW]**
 
 > What we see: defun, returned values, required arguments, optional arguments, key arguments, how to set a default value, how to know if an argument was supplied, &rest, example of apply, example of an inline assertion under a feature flag.
 
-4.2. Referencing functions, redefining functions locally, accessing documentation
+5.2. Referencing functions, redefining functions locally, accessing documentation
 
 > What we see: apropos, documentation #'hello, the difference between 'hello and #'hello (quote, sharpsign-quote), flet and labels.
 
-4.3. Multiple Return Values
+5.3. Multiple Return Values
 
 > Multiple return values are NOT like returning a list or a tuple!!! What we see: counter-example in Python, values, multiple-value-bind, nth-value, values-list, m-v-l.
 
-4.4. Higher Order Functions
+5.4. Higher Order Functions
 
 > What we see: how to give functions as arguments, member, the :test keyword, map and mapcar, lambda, how to generate functions, setf symbol-function. A word on currying and being a Lisp-2.
 
-4.5. Closures
+5.5. Closures
 
 > What we see: closures (let over lambda and lambda over let over lambda). Notions of lexical scope, functions and their environment.
 
-4.6. setf functions
+5.6. setf functions
 
 > What we see: how and why setf functions, with our previous counter example and a circle class (we set a new radius given a circumference).
 
-4.7. Generic Functions (quick intro, sneak peak to CLOS)
+5.7. Generic Functions (quick intro, sneak peak to CLOS)
 
 > How to write functions that dynamically dispatch on the type of their arguments. What we see (quickly): defmethod, defgeneric (optional).
 
-## section 5: working with projects
+## section 6: working with projects
 
-5.1 How to work with an existing project
+6.1 How to work with an existing project
 
 > What we see: how to load the project thanks to its .asd file, install dependencies, go "in the package", being in a bare bones Lisp REPL or in Emacs and Slime. Appropriate Slime shortcuts. Get a list of the project's dependencies with ASDF programmatically.
 
-5.2. How to create a new project
+6.2. How to create a new project
 
 > What we see: a simple .asd file (flat source tree or a src/ subdirectory), a package definition, two project skeletons.
 
-As a complement, see this video: [cl-cookieproject demo](https://www.youtube.com/watch?v=XFc513MJjos).
+As a complement, see this video: [cl-cookieproject demo](https://www.youtube.com/watch?v=XFc613MJjos).
 
-5.3. What are systems and packages anyways?
+6.3. What are systems and packages anyways?
 
 > What we see: a recap on systems. The :cl-user and :cl packages. Creating a package without using :cl symbols. Recovering from symbols name conflicts. Understanding that the reader "interns" symbols from what we type. Printing and counting external symbols of a package. Role of in-package. Exporting symbols.
 
-## section 6: the Condition Handling System
+## section 7: the Condition Handling System
 
-6.1 How to create an error, a warning and a simple-condition **[🆓 FREE PREVIEW]**
+7.1 How to create an error, a warning and a simple-condition **[🆓 FREE PREVIEW]**
 
 > What we see: the ERROR and WARNING functions, MAKE-CONDITION and SIGNAL. What are simple conditions good for?
 
-6.2 How to handle ("catch") all sorts of errors and conditions
+7.2 How to handle ("catch") all sorts of errors and conditions
 
 > What we see: HANDLER-CASE, how to use it with built-in conditions types (division-by-zero…) and with conditions from third-party libraries. The importance of the class precedence list. How to inspect our Lisp image to find available error types.
 
-6.3 How to define our own errors
+7.3 How to define our own errors
 
 > What we see: DEFINE-CONDITION, :report, :initargs, :initform, :reader and :accessor. Example of a locked package. How to print our error message to the end user.
 
-6.4 IGNORE-ERRORS
+7.4 IGNORE-ERRORS
 
 > A quick demo of a very useful macro, coupled with a pattern I use a lot. How to build this macro with HANDLER-CASE.
 
-6.6 UNWIND-PROTECT: the "finally" in try/catch/finally
+7.6 UNWIND-PROTECT: the "finally" in try/catch/finally
 
-6.7 HANDLER-BIND: the lispy super-power (NEW on Feb 13th, 2023)
+7.7 HANDLER-BIND: the lispy super-power (NEW on Feb 13th, 2023)
 
 > What we see: what is a call stack, how HANDLER-CASE unwinds it, what HANDLER-BIND does better, its syntax, a practical example. A word about restarts and the INVOKE-DEBUGGER trick for development.
 
-<!-- 6.8 (upcoming) Restarts -->
+<!-- 7.8 (upcoming) Restarts -->
 
-See exercises in `chapter 6 - condition handling/`.
+See exercises in `chapters/condition-handling/`.
 
-## section 7: the Common Lisp Object System (CLOS) (NEW! as of July, 2024)
+## section 8: the Common Lisp Object System (CLOS) (July, 2024)
 
 NEW! I recorded 8 videos on CLOS. Subtitles are ready.
 
@@ -251,87 +298,87 @@ Learners of my course will **know enough to read real-world Common Lisp projects
 
 What we see:
 
-7.1 CLOS crash course, part 1 **[🆓 FREE PREVIEW]**
+8.1 CLOS crash course, part 1 **[🆓 FREE PREVIEW]**
 
 > DEFCLASS, MAKE-INSTANCE, attributes (aka slots), slot options (initarg, initform, reader, writer, accessor, documentation), slot-value, generic functions, DEFMETHOD, dispatching on built-in types, how objects are lazily updated, Slime inspector actions, manipulating Slime presentations, unbound slots and SLOT-BOUNDP, Slime shortcuts to create objects…
 
-7.1b Quizz: CLOS crash test
+8.1b Quizz: CLOS crash test
 
 Quick questions to test your knowledge and practice your reading of code.
 
 Spot the well formed and malformed class definitions.
 
-7.2 CLOS crash course, part 2
+8.2 CLOS crash course, part 2
 
 > Inheritance, multimethods, :around, :before and :after methods (think signals and overwriting default methods in other languages, that allow to control what happens when a method is called, if it is called at all), their order of execution, a Slime shortcut to export all symbols of a class at once…
 
-7.3 Pretty printing
+8.3 Pretty printing
 
 Change the default printed representation of objects.
 
 > What we see. PRINT-OBJECT, with print-unreadable-object, the object type, the object identity, classic gotchas.
 
-7.4. `defclass` review
+8.4. `defclass` review
 
 We give another pass, slower, to DEFCLASS, slot options, MAKE-INSTANCE, and to the fact that accessors are generic functions.
 
 You can skip this one if the crash course was crystal clear.
 
-7.5 Custom constructors
+8.5 Custom constructors
 
 > What we see: writing our own MAKE-PERSON terse constructor. Adding some logic before the object creation, doing side-effects after the object creation: towards INITIALIZE-INSTANCE.
 
-7.6 `initialize-instance`: control if and how any objects are created
+8.6 `initialize-instance`: control if and how any objects are created
 
 > What we see: defining a :before and an :after method of INITIALIZE-INSTANCE for our person class, in order to do the same logic than with our custom constructor, but with a built-in CL Object System mechanism. Note that using INITIALIZE-INSTANCE isn't a must, only a "can", that you can use for your own classes, or to control the creation of objects from other systems.
 
 
-7.7 Multiple inheritance
+8.7 Multiple inheritance
 
 > What we see: how to inherit from multiple parent classes and who takes precedence, when the parents define the same slot with each a default value. Quick illustration. We use what is known as a mixin class to add functionality to our class.
 
-7.8 `defgeneric` vs `defmethod`: when to use which, which is better?
+8.8 `defgeneric` vs `defmethod`: when to use which, which is better?
 
 > What we see: the use of DEFGENERIC and DEFMETHOD, either separately, either together. DEFGENERIC has a couple advantages in regards to documentation and keeping your code in sync with your image.
 
-7.8b Quizz: reading code from real-world projects. Can you read these?
+8.8b Quizz: reading code from real-world projects. Can you read these?
 
 You know enough CLOS to read the sources of a web server (Hunchentoot) and a game (Kandria). Bravo!
 
-7.9 Class allocation
+8.9 Class allocation
 
 > What we see: the default :allocation :instance VS :allocation :class. How to automatically count how many objects of a class are created.
 
 
-## section 8: macros
+## section 9: macros
 
-I started publish the chapter on macros on September, 1st of 2023. It is comprised of 18 short videos.
+I started publish the chapter on macros on September, 1st of 2023. It is comprised of 19 short videos.
 
 What we see:
 
-8.1 A quick intro
+9.1 A quick intro
 
 > Macros do not evaluate their arguments and expand to new code at compile time. What does that mean? A quick intro before diving deeper.
 
-8.2. A comparison with C macros
+9.2. A comparison with C macros
 
 > Lisp macros are NOT manipulating text, unlike C. Text leads to many unnecessary problems. We have a fun tour of a trivial need yet complicated issue in C that is easily done in Common Lisp.
 
-8.3 QUOTE
+9.3 QUOTE
 
 > QUOTE does not evaluate its argument.
 
 > What we see: how to use QUOTE outside macros. Data takes the shape of code. We pair it with eval and we go full circle. We introduce the need to extrapolate values inside a quote.
 
-8.4 Backquote and comma
+9.4 Backquote and comma
 
 > What we see: how we extrapolate variable values. How they can help create data structures. Real world examples.
 
-8.5 How to spot you are using a macro
+9.5 How to spot you are using a macro
 
 > Four tips to recognize if you are using a function or a macro, and why it matters.
 
-8.6 Functions vs macros
+9.6 Functions vs macros
 
 > Macros do NOT replace functions!
 
@@ -342,57 +389,57 @@ What we see:
 > Keeping compile-time computing in mind (more on that later). A look at a function's disassembly. So… you might not need a macro yet ;)
 
 
-8.7 COMMA SPLICE ,@ the third most important macro mechanism
+9.7 COMMA SPLICE ,@ the third most important macro mechanism
 
 > What we see: when use it, understanding the common error messages, passing body forms to our macro. Our first macro model.
 
-8.8 &body and other macro parameters. Our second macro model.
+9.8 &body and other macro parameters. Our second macro model.
 
 > What we see: how &body differs to &rest. Macro parameters: lots of possibilities, but some conventions carry meaning. Our own DOLIST macro. Our second macro model you can follow.
 
-8.9 Putting this together: with-echo macro. Macroexpand in use.
+9.9 Putting this together: with-echo macro. Macroexpand in use.
 
 > We build our first macro with backquote and comma-splice, even a quote followed by a comma. We use macroexpand.
 
-8.10 GENSYM -the simple fix to the most dangerous macros gotcha
+9.10 GENSYM -the simple fix to the most dangerous macros gotcha
 
 > What we see: what is variable capture and how to avoid it. Writing our own REPEAT macro. A little discussion about Common Lisp VS Scheme macros. GENSYM can be used outside macros too.
 
 At this point you know enough to write all common macros. See the exercises for easy and not-so-easy ones.
 
-8.11 CALL-WITH pattern: simplifying macros
+9.11 CALL-WITH pattern: simplifying macros
 
 > We saw there can be subtle pitfalls when we write a macro. This pattern allows to offload most of the work to a function, which presents many advantages. We demo with our REPEAT macro.
 
-8.12 Compile time computing
+9.12 Compile time computing
 
 When writing macros, we have the full power of Common Lisp at compile time. This gives great tools to the developer: early type errors and warnings, faster runtime.
 
 > What we see: a simple example, writing a scientific macro for conversion of unit at compile time, existing libraries for that, introduction to dispatching macro characters and reader macros.
 
-8.13 Lists VS AST
+9.13 Lists VS AST
 
 > What we see: other languages don't have macros but can manipulate Abstract Syntax Trees. Code as lists of symbols is not the same, we would need a third-party library to manipulate a Lisp AST proper. This doesn't prevent us to develop crazy macros though, see this library adding Haskell-like type checking on top of Common Lisp, in pure CL macros.
 
-8.14 Two example macros for compile-time computing
+9.14 Two example macros for compile-time computing
 
 > defstar allows to specify a function's arguments' types, Serapeum's ecase-of does exhaustiveness type checking. At compile time, of course.
 
-8.15 SYMBOL-MACRO
+9.15 SYMBOL-MACRO
 
 > A symbol macro is not your everyday Lisp development tool, but it expands your toolbet. Again.
 
-8.16 Read-time evaluation with #.
+9.16 Read-time evaluation with #.
 
 > Macros occur at compile-time. But Common Lisp blurs the lines between read time, compile time and run time. This allows to execute code at READ time.
 
-8.17 EDITOR TOOL: macrostep **(FREE PREVIEW, Lem demo)**
+9.17 EDITOR TOOL: macrostep **(FREE PREVIEW, Lem demo)**
 
 > Macrostep is an editor extension that helps understand our macro expansions. It is only available in Sly and Lem. We demo with the Lem editor.
 
-## Section 9: additional and optional
+## Section 10: additional and optional content
 
-9.1 🚀 Scripting with batteries included
+10.1 🚀 Scripting with batteries included
 
 > I demo what may be the simplest method to run some Lisp code as of today. We use a simple to install binary that allows to run lisp files as scripts, with many third-party libraries already baked-in. We request an HTTP endpoint and we parse it in JSON, without resorting to Quicklisp, and our script starts fast: we don't wait for the libraries to load. I show built-in scripts: a simple HTTP server to serve a local directory, a simple web app with routes, how to watch and auto-reload files.
 
@@ -436,14 +483,17 @@ We don't only see theory, I give on hints on real-world Common Lisp here and the
   - `uiop:file-exists` and all => LISP BASICS, conditionals
   - `uiop:with-collecting` => last lecture of the ITERATION chapter.
   - `uiop:define-package` => WORKING WITH PROJECTS, last lecture.
+  - `uiop:read-file-form` => data structures, in the .lisp snippets of this repository.
 - for (iteration) => ITERATION, lecture "Iterating over lists an vectors"
-- Alexandria (general purpose utilities) for `hash-table-values` => ITERATION, lecture "Iterating over a hash-table"
+- Alexandria (general purpose utilities) for `hash-table-values` => ITERATION, lecture "Iterating over a hash-table", also for DATA STRUCTURES and specially hash-tables.
 - do-list (iteration) => same
 - dexador (HTTP requests)
 - log4cl (logging) => MACROS, lecture "with-echo example"
 - easy-routes (web routing) => MACROS chapter, lecture "real-time evaluation with #."
 - defstar => MACROS, lecture "two example macros"
-- serapeum for `ecase-of` => MACROS, lecture "two example macros"
+- serapeum for
+  - `ecase-of` => MACROS, lecture "two example macros"
+  - `dict` => DATA STRUCTURES, lecture "hash tables"
 - physical-quantities, measures => MACROS, lecture "Compile-time computing"
 - cl-project, cl-cookieproject => WORKING WITH PROJECTS, "How to create a new project"
 
@@ -493,12 +543,12 @@ More content:
 - [X] iteration
 - [X] systems and packages
 - [X] the condition system
-- [-] CLOS **ONGOING** (first videos uploaded, more to come, as of June, 2024)
+- [X] CLOS
 - [X] macros
+- [X] data structures
 - IDEs:
   - working with SLIME
   - ~~Atom~~ Pulsar and SLIMA
-- concurrency
 
 And also:
 
