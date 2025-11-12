@@ -2,7 +2,7 @@
 ;;; Searching data structures with :test and :key
 ;;;
 ;;; From "data structures" chapter, video "working with compound data structures: :TEST and :KEY".
-;;; https://www.udemy.com/course/common-lisp-programming/
+;;; https://www.udemy.com/course/common-lisp-programming/?couponCode=BUSYCODERS2025
 ;;;
 ;;; :test -> typically, when working with strings
 ;;; :key ->  for compound objects
