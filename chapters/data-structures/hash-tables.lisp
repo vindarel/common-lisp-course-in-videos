@@ -121,9 +121,13 @@
 
 (let ((ht (dict :a 1 :b 2 :c 3)))
   (with-open-file (f "mydict.lisp-expr" :direction :output
+                     ;; .lisp-expr: convention, to exclude from ripgrep and other tools.
                                         :if-exists :supersede
                                         :if-does-not-exist :create)
     (princ ht f)))
+
+;; with the STR library:
+;; (str:to-file "mydict.lisp-expr" ht)
 
 ;; => the file was created.
 ;; Look at its content.
