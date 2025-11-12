@@ -30,7 +30,8 @@ resources, the language has its peculiarities, the ecosystem is
 larger than you think but not well structured. I contributed a *lot*
 to written resources such as the
 [Cookbook](https://lispcookbook.github.io/cl-cookbook/),
-[awesome-cl](https://github.com/CodyReichert/awesome-cl) and my
+[awesome-cl](https://github.com/CodyReichert/awesome-cl),
+[Web Apps in Lisp - Know-How](https://web-apps-in-lisp.github.io/) and my
 [lisp-journey blog](https://lisp-journey.gitlab.io/) but I want to do more.
 
 You can now **learn Common Lisp with my [videos on the Udemy platform](https://www.udemy.com/course/common-lisp-programming/?referralCode=2F3D698BBC4326F94358)**. At the time of writing, I consider it ~~half done~~ 70% done (but the chapters there are complete). If you subscribe now, you'll have access to the new content that I'm working on. I truly believe this course to be **the most effective way to learn Common Lisp today**. I am genuinely happy to share all that with you.
