@@ -82,3 +82,29 @@
 
 ;; function reference on
 ;; https://lispcookbook.github.io/cl-cookbook/data-structures.html#sequences
+
+;; Bonus:
+;;
+;; the same with CLOS.
+
+(defclass coord ()
+  ((x :initarg :x :accessor x :initform 0)
+   (y :initarg :y :accessor y :initform 0)))
+
+(defparameter *list-of-coords*
+  (list (make-instance 'coord :x 1 :y 2)
+        (make-instance 'coord :x 10 :y 20)))
+
+(find 10 *list-of-coords*)
+;; a result or not ?
+
+(find 10 *list-of-coords* :key #'x)
+;; a result or not ?
+
+;; bonus:
+;; (we see all of this in the CLOS chapter)
+
+(defmethod print-object ((obj coord) stream)
+  (print-unreadable-object (obj stream :type t :identity t)
+    ;; be sure x and y are bound. The initform is here for that… but still.
+    (format stream "x: ~a, y:~a" (x obj) (y obj))))
