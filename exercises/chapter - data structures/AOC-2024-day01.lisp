@@ -113,16 +113,20 @@
 ;; A utility function.
 ;; We could inline it.
 ;; But, measure before trying any speed improvement.
-(defun blank-string (s)
+(defun blank-string-p (s)
   "S is a blank string (no content)."
-  (equal "" s))
+  ;; the -p is for "predicate" (returns nil or t (or a truthy value)), it's a convention.
+  ;;
+  ;; We already have str:blankp in STR,
+  ;; and we wouldn't need this function if we used str:words.
+  (equal "" s))  ;; better: pair with string-trim.
 
 #+(or)
-(blank-string nil)
+(blank-string-p nil)
 #++
-(blank-string 42)
+(blank-string-p 42)
 #+(or)
-(blank-string "")
+(blank-string-p "")
 
 (defun split-words (s)
   "Split the string S by spaces and only return non-blank results.
@@ -138,7 +142,7 @@
   ;; and ignore consecutive whitespaces like this.
   ;;
   (let ((strings (uiop:split-string s :separator '(#\Space))))
-    (remove-if #'blank-string strings)))
+    (remove-if #'blank-string-p strings)))
 
 #+lets-try-it-out
 ;; test this however you like.
