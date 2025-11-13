@@ -27,7 +27,8 @@
        }
 
        .container {
-           --color-main: #5452ee;
+           /* --color-main: #5452ee; */
+           --color-main: #ff00ff;
            --color-primary: #e73c7e;
            --color-secondary: #23a6d5;
            --color-tertiary: #ffff;
@@ -61,7 +62,8 @@
                --color-main: #F15BB5;
                --color-primary: #24b0ef;
                --color-secondary: #4526f6;
-               --color-tertiary: #f6f645;
+               /* --color-tertiary: #f6f645; */
+               --color-tertiary: #ff00ff;
            }
        }
 
@@ -77,10 +79,10 @@
       </style>
 
       <div class="container">
-        <h1> 🎥 New: learn CLOS! <div class="hi">🚀</div> </h1>
-        <div> and you can read real-world Lisp code. </div>
+        <h1> 🎥 New: DATA STRUCTURES! <div class="hi">🚀</div> </h1>
+        <div> and you can write fast code. </div>
         <!-- <div> udemy.com/common-lisp-programming </div> -->
-        <div> coupon: LISP-EVERYWHERE-2025 </div>
+        <div> coupon: DATAISCODEISDATA </div>
       </div>
     </div>
   </foreignObject>
