@@ -170,6 +170,8 @@ Here's what you'll learn.
 
 > Lists, continued. What we see: how to access elements: FIRST, REST, LAST, NTH…
 
+- [EXERCISE: parse, sort, compute. AOC day 01.](https://github.com/vindarel/common-lisp-course-in-videos/blob/master/exercises/chapter%20-%20data%20structures/AOC-2024-day01.lisp) (hard for total beginners. Have a look, take at least something out of it)
+
 3.4 Equality - working with strings gotcha
 
 > What we see: explanation of the different equality functions and why knowing this is necessary when working with strings. EQ, EQL, EQUAL, EQUALP (and STRING= et all) explained. Which is too low-level, which you'll use most often.

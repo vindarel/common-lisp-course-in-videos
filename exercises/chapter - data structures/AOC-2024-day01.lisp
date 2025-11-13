@@ -9,6 +9,14 @@
 ;;; Here are the shortened instructions.
 
 ;;;
+;;; ********************************************************************
+;;; WARN: this exercise migth be hard if you don't know about functions.
+;;; ********************************************************************
+;;;
+;;; you can come back to it later.
+;;; But, you can have a look, explore and get something out of it.
+
+;;;
 ;;; In this exercise, we use:
 ;;; SORT
 ;;; ABS
@@ -246,11 +254,8 @@
 (assert (equal 11 (solve)))
 
 ;;;
-;;; Now try with your own input data!
-;;;
-
-;;;
 ;;; Next:
-;;; - do the same with the STR library.
+;;; - try with your own input data!
+;;; - do the same with the STR library and/or CL-PPCRE.
 ;;; - write a top-level instructions that calls our "main" function so that you can call this file as a script from the command line, with sbcl --load AOC-2024-day01.lisp
 ;;;
