@@ -1,0 +1,142 @@
+
+;;;
+;;; Practice with the code snippets below.
+;;; Run them, tweak them.
+;;; Run them from the terminal, or explore your editor.
+;;;
+;;; Those are the snippets from the video, and a few more.
+;;;
+
+(list 1 2 3)
+
+(list :one "two" (list 3))
+
+(make-list 3)
+
+(fill (make-list 3) 42)
+
+(make-list 3 :initial-element "hello")
+
+(defparameter *name* "you")
+
+(list *name*)
+
+'(*name*)
+
+(list (quote *name*))
+
+(quote (list *name*))
+
+(quote (*name*))
+
+(quote (one "two" (list 3)))
+
+(quote (one "two" (3)))
+
+
+;;;
+;;; property lists (plist)
+;;;
+
+(defparameter *plist* (list :key "foo" :key2 "bar"))
+
+(getf *plist* :key)
+
+;; remove an element: destructive
+(remf *plist* :key2)
+
+
+
+;;;
+;;; association lists (alist)
+;;;
+
+(defparameter *my-alist* (list (cons :foo "foo")
+                               (cons :bar "bar")))
+
+'((:foo . "foo") (:bar . "bar"))
+
+(list (cons :name *name*)
+      (cons :name "me"))
+
+;; with backquote and comma: ' `
+`((:name . ,*name*) (:name . "me"))
+
+;; access:
+(assoc :foo *my-alist*)
+
+(cdr (assoc :foo *my-alist*))
+
+#+(or)
+(ql:quickload "alexandria")
+
+;; key -> val
+(alexandria:assoc-value *my-alist* :foo)
+
+;; val -> key
+(alexandria:rassoc-value *my-alist* "foo")
+(alexandria:rassoc-value *my-alist* "foo" :test #'equal)
+
+;;;
+;;; Access elements
+;;;
+
+(defparameter *list* (list 0 :one "two" (make-hash-table) 'three))
+
+;; first (car), second, third… tenth
+
+(first *list*)
+
+;; rest (cdr)
+(rest *list*)
+
+;; last, butlast
+(last *list*)
+(first (last *list*))
+
+(alexandria:last-elt *list*)
+
+(butlast *list*)
+
+;; nth, nthcdr
+
+(nth 2 *list*)
+
+(nthcdr 2 *list*)
+
+;;;
+;;; Add elements to a list, set elements.
+;;;
+
+(defparameter *my-list* (list 0 1 2))
+
+(push :that *my-list*)
+(pop *my-list*)
+
+(pushnew :thing *my-list*)
+
+(list* :in :front  *my-list*)
+
+(loop :for i :upto 9
+      :collect i)
+
+(loop for elt in (list :one "two" (list 3))
+      do (format t "~&elt ~s is of type: ~a~&" elt (type-of elt)))
+
+(setf (nth 1 *list*) :changed!)
+
+(append (list 1 2 3) (list 10 20 30))
+
+;; and… nconc, destructive.
+
+;; for sequences:
+(concatenate 'string (list "hello") (list "foo"))
+
+#+(or)
+(ql:quickload "str")
+
+(str:concat "hello" " " "world")
+
+(str:join " " (list "hello" "world"))
+
+(str:unwords (list "hello" "world"))
