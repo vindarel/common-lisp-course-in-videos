@@ -52,6 +52,9 @@ Lisp concepts.
 > [!NOTE]
 > I now do one-to-one training sessions. I started in January of 2025 (thanks, Ari). We settled on USD 40$ an hour. You can contact me by email.
 
+You can judge if the course will be good for you with the free to
+watch videos. There is 1 or 2 in each chapter, there are **9 free
+videos** in total.
 
 The course is to my relief well received. You'll find more feedback below, here's a recent one:
 
@@ -166,10 +169,14 @@ Here's what you'll learn.
 
 > What we see: how to create lists (proper lists, plists and alists). A first warning about the '(1 2 3) notation with a quote.
 
+- PRACTICE: list creation
+
 3.3 Lists (2): lists manipulation
 
 > Lists, continued. What we see: how to access elements: FIRST, REST, LAST, NTH…
 
+- PRACTICE: accessing sequences elements
+- PRACTICE: sequences manipulation functions
 - [EXERCISE: parse, sort, compute. AOC day 01.](https://github.com/vindarel/common-lisp-course-in-videos/blob/master/exercises/chapter%20-%20data%20structures/AOC-2024-day01.lisp) (hard for total beginners. Have a look, take at least something out of it)
 
 3.4 Equality - working with strings gotcha
