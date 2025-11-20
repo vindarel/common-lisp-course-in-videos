@@ -22,13 +22,6 @@
 
 (count 0 *list*)
 
-;; see the lecture: "working with strings gotchas".
-(count "two" *list*)
-
-(count "two" *list* :test #'string=)
-(count "two" *list* :test #'string-equal)
-(count "two" *list* :test #'equal)
-
 (subseq *list* 1)
 (subseq *list* 1 3)
 (subseq *list* 1 100)
