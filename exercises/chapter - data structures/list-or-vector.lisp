@@ -20,7 +20,10 @@
 
   Below, we iterate over a list and across a vector to access an element by its index,
   we use this value to do something (the ASSERT), and we observe a difference
-  in execution time."
+  in execution time.
+
+  We don't measure the implementation's speed, we compare the relative
+  access time by index of two different data structures."
   (let ((list (read-database-rows-as-list))
         (vector (read-database-rows-as-array)))
     (time

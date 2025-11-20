@@ -1,8 +1,43 @@
 
+```
+;;;
+;;; Practice with the code snippets below.
+;;; Run them, tweak them.
+;;; Run them from the terminal, or explore your editor.
+;;;
+;;; Those are the snippets from the video, and a few more.
+;;;
+```
+
 
 # DATA STRUCTURES: exercises
 
-## 1. AOC 2024 day 01
+We ship code snippets from the video, extended,
+
+
+## PRACTICE: list creation
+
+Practice proper list, plist and alist creation.
+
+```
+list make-list fill quote getf remf, assoc, alexandria's assoc-value & rassoc-value
+```
+
+## PRACTICE: access elements in sequences
+
+```
+first… tenth, car, cdr, butlast, nthcdr, push, pop, pushnew, list* [and more]
+```
+
+## PRACTICE: sequence manipulation functions
+
+Get to know all built-in sequence manipulation functions.
+
+## PRACTICE: equality, working with strings gotchas
+
+Snippets from the video, and more.
+
+## EXERCISE: AOC 2024 day 01
 
 
 ```
@@ -33,3 +68,9 @@
 ;;; but it would make our life easier.
 ;;;
 ```
+
+## EXERCISE: compare lists and vectors
+
+A dummy benchmark to witness the difference in access time by index between a list and a vector.
+
+[list-or-vector.lisp](list-or-vector.lisp)
