@@ -74,3 +74,25 @@ Snippets from the video, and more.
 A dummy benchmark to witness the difference in access time by index between a list and a vector.
 
 [list-or-vector.lisp](list-or-vector.lisp)
+
+## PRACTICE: hash-tables manipulation and fixing their ergonomic flaws
+
+```
+;;; Snippets of the video: "Hash-tables (dicts) and fixing their ergonomic flaws"
+;;; (which is free to watch for everyone)
+;;;
+
+;;;
+;;; We see:
+;;;
+;;; MAKE-HASH-TABLE
+;;; GETHASH
+;;; (SETF (GETHASH …) …)
+;;; ALEXANDRIA:HASH-TABLE-KEYS
+;;; SERAPEUM:DICT
+;;; MAPHASH
+;;; DEFPACKAGE
+;;; WITH-OPEN-FILE
+;;; UIOP:READ-FILE-FORM
+;;;
+```

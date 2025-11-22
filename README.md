@@ -183,9 +183,13 @@ Here's what you'll learn.
 
 > What we see: explanation of the different equality functions and why knowing this is necessary when working with strings. EQ, EQL, EQUAL, EQUALP (and STRING= et all) explained. Which is too low-level, which you'll use most often.
 
+- PRACTICE: using equality predicates.
+
 3.5 Vectors and arrays
 
 > What we see: vectors (one-dimensional arrays), multi-dimensional arrays, VECTOR-PUSH[-EXTEND], the fill-pointer, adjustable arrays, AREF, VECTOR-POP, COERCE, iteration across arrays (LOOP, MAP).
+
+- EXERCISE: compare lists and vectors access time.
 
 3.6 The CONS cell
 
@@ -198,6 +202,9 @@ Here's what you'll learn.
 3.8 Hash-tables and fixing their two ergonomic flaws **[🆓 FREE PREVIEW]**
 
 > Hash-tables (dictionaries, hash maps etc) are efficient key-value stores. However, as a newcomer, I had them in gripe. They were not easy enough to work with. I show you everything that's needed to work with hash-tables, and my best solution for better ergonomics.
+
+- PRACTICE: the video snippet to create hash-tables, access and set content, use Alexandria, Serapeum's `dict` notation, iterate on keys and values, serialize a HT to a file and read its content back.
+
 
 3.9 Using QUOTE to create lists is NOT THE SAME as using the LIST function. Gotchas and solution.
 
