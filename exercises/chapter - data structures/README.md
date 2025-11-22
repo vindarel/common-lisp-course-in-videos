@@ -96,3 +96,5 @@ A dummy benchmark to witness the difference in access time by index between a li
 ;;; UIOP:READ-FILE-FORM
 ;;;
 ```
+
+## EXERCISE: a grid of cells, warming up for another AOC puzzle.
