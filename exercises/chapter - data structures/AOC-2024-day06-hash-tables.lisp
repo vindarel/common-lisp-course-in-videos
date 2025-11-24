@@ -21,7 +21,19 @@
 
 ;;;
 ;;; In this exercise, we use:
-
+;;;
+;;; parameters
+;;; functions
+;;; recursivity
+;;; &aux in a lambda list
+;;; CASE
+;;; return-from
+;;; &key arguments
+;;; complex numbers
+;;; hash-tables
+;;; the DICT notation (though optional)
+;;; LOOPing on a list and on strings
+;;; equality for characters
 
 
 ;; We use the DICT notation.
@@ -53,7 +65,7 @@
 ;; When the guard encounters an obstacle, it turns 90 degrees right, and keeps walking.
 ;;
 ;; Our task is to count the number of distinct positions the guard will visit on the grid
-;; before eventually leaving the areo
+;; before eventually leaving the area.
 
 ;; We will have to:
 ;; - parse the grid into a data structure
@@ -70,9 +82,10 @@
         :visited visited))
 
 ;; Our grid is a dict too.
-;; We create a top-level parameter, mainly for devel purposes.
-(defparameter *grid* (dict)
+;; We create a top-level variable, mainly for devel purposes.
+(defvar *grid* (dict)
   "A hash-table to represent our grid. Associates a coordinate (complex number which represents the X and Y axis in the same number) to a cell (another hash-table).")
+;; You could use a DEFPARAMETER, like I did initially. But then, a C-c C-k (recompile current file) will erase its current value, and you might want or not want this.
 
 ;; For each coordinate, we associate a cell.
 ;;
@@ -111,8 +124,9 @@
 
 ;; We must parse the string to a hash-table of coordinates -> cells.
 ;;
-;; I'll write the main loop for you
-;; since you didn't see the Iteration chapter yet.
+;; I'll write the main loop for you.
+;; If you feel ready, take a go at it.
+;;
 
 (defun parse-grid (input)
   "Parse INPUT (string) to a hash-table of coordinates -> cells."
@@ -120,7 +134,7 @@
   (loop :for line :in (str:lines input)
         ;; start another variable that tracks our loop iteration.
         ;; It it incremented by 1 at each loop by default.
-        :for y :from 0  ;; up and down, imagpart of our coordinate number.
+        :for y :from 0  ;; up and down on the map, imagpart of our coordinate number.
         ;; The loop syntax with … = … creates a variable at the first iteration,
         ;; not at every iteration.
         :with grid = (dict)
@@ -131,12 +145,12 @@
         ;;
         ;; The Iterate library has the generic :in-sequence clause if that's your thing (with a speed penalty).
         :do (loop :for char :across line
-                 :for x :from 0   ;; left to right, realpart of our coordinate.
+                 :for x :from 0   ;; left to right on the map, realpart of our coordinate.
                  :for key := (complex x y)
                   ;; Create a new cell at each character.
                   :for cell := (cell char)
                   ;; Is this cell the guard at the start position?
-                 :if (equal char #\^)
+                 :when (equal char #\^)
                    :do (progn
                          ;; Here, use SETF on GETHASH
                          ;; to set the :guard keyword of the cell to True.
@@ -182,7 +196,7 @@
 ;; https://dev.to/vindarel/compile-time-exhaustiveness-checking-in-common-lisp-with-serapeum-5c5i
 
 (defun next-x (position direction)
-  "From a cell and a direction, compute the next X."
+  "From a position (complex number) and a direction, compute the next X."
   (case direction
     (:up (realpart position))
     (:down (realpart position))
@@ -190,7 +204,7 @@
     (:left (1- (realpart position)))))
 
 (defun next-y (position direction)
-  "From a cell and a direction, compute the next Y."
+  "From a position (complex number) and a direction, compute the next Y."
   (case direction
     (:up (1- (imagpart position)))
     (:down (1+ (imagpart position)))
@@ -203,7 +217,7 @@
 ;; and iterates, until the guard goes out of the map.
 (defun walk (&key (grid *grid*) (input *input*)
                (position *guard*)
-               (cell (gethash *guard* *grid*))
+               (cell (gethash *guard* *grid*))  ;; todo: *grid* is used here. Fix it so we don't use a top-level variable, but only the grid given as a key argument.
                (direction :up)
                (count 0)
                ;; &aux notation: it saves a nested of LET bindings.
