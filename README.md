@@ -597,6 +597,12 @@ If you want to correct my (cute) accent, be my guest!
 
 Here is some feedback from people who took the course:
 
+> It's a good course in general. I need to go back and forward to the Cookbook but it clarifies most of my questions. Thanks.
+
+Juan G, Feb. 2026
+
+*(which is nice to hear since I also work on the Cookbook for it to be a reference)*
+
 > [The employees that we train in Common Lisp] said they can understand you very well, and that your approach is gentle.
 >
 > **They said you do a better job of teaching than Peter Seibel**.
