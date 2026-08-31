@@ -597,6 +597,10 @@ If you want to correct my (cute) accent, be my guest!
 
 Here is some feedback from people who took the course:
 
+> A long time ago, your course on Udemy was my proper intro into Common Lisp! I was a Scheme-head before then, so thank you for that :) It's a great course and I've been recommending it to friends I am baiting into Lisping, haha.
+
+Lukáš, Sept. 2026
+
 > It's a good course in general. I need to go back and forward to the Cookbook but it clarifies most of my questions. Thanks.
 
 Juan G, Feb. 2026
