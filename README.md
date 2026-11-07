@@ -597,15 +597,27 @@ If you want to correct my (cute) accent, be my guest!
 
 Here is some feedback from people who took the course:
 
+> I'm really loving this course! I'm fairly experienced and fluent with other languages, but Common LISP has really fascinated me with its elegant form and deeply recursive design. Vincent's course starts out with basics and it moves onto more complex ideas and forms. Far beyond just an glancing overview of LISP functions, it provides excellent depth on the how and why the language is implemented the way it is. Along with my fascination for the language, I use Common LISP for writing programs that assist in composing music using tools like OpusModus and Common LISP Music, which provides modern composers with powerful tools of composing and organizing their music.
+
+Paul M., Sept. 2026
+
 > A long time ago, your course on Udemy was my proper intro into Common Lisp! I was a Scheme-head before then, so thank you for that :) It's a great course and I've been recommending it to friends I am baiting into Lisping, haha.
 
 Lukáš, Sept. 2026
+
+> kind of steep in the very beginning. And enunciation.
+
+Brent M, March 2026
 
 > It's a good course in general. I need to go back and forward to the Cookbook but it clarifies most of my questions. Thanks.
 
 Juan G, Feb. 2026
 
 *(which is nice to hear since I also work on the Cookbook for it to be a reference)*
+
+> Very good training video from what I've seen so far. Not for absolute beginners, but if you have a basic understanding of a Lisp language, it's pretty easy to follow along. Good course if you want to learn Common Lisp.
+
+Douglas C, Feb. 2026
 
 > [The employees that we train in Common Lisp] said they can understand you very well, and that your approach is gentle.
 >
