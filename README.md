@@ -60,7 +60,7 @@ The course is to my relief well received. You'll find more feedback below, here'
 
 > **[My employees] said you do a better job of teaching than Peter Seibel**.
 
-Rommel Martinez, CEO of [VEDA Technologies, Inc.](https://veda-tech.com/en), August 2025 on Discord. O_o 🔥
+Rommel Martinez (ebzzry), CEO of [VEDA Technologies, Inc.](https://veda-tech.com/en), August 2025 on Discord. O_o 🔥
 
 or again:
 
@@ -623,7 +623,7 @@ Douglas C, Feb. 2026
 >
 > **They said you do a better job of teaching than Peter Seibel**.
 
-Rommel Martinez, CEO of [VEDA Technologies, Inc.](https://veda-tech.com/en), August 2025 on Discord. O_o 🔥
+Rommel Martinez (ebzzry), CEO of [VEDA Technologies, Inc.](https://veda-tech.com/en), August 2025 on Discord. O_o 🔥
 
 > Your course is what really helped me tie together all the core concepts of Lisp.  Before your course all of my Lisp knowledge was random bits of information that wasn't tied together. It took me a while to start to see what is going on and why and your course brought everything together nicely.  As a side note, I used to think that CLOS was some kind of magic until I took your course and you made it so simple.
 
@@ -631,7 +631,7 @@ Robert T., by email, Oct. 2025.
 
 > Enjoyed it so much. Really did a good job dumbing it down specially on section 2: feels like I breezed over chapter 1 and 2 of PCL. His voice, a little mono though. I'd say that's my only criticism.
 
-Sir_ben, trainee of VedaInc, on Discord.
+Sir_ben, trainee of [VEDA Technologies, Inc.](https://veda-tech.com/en), on Discord.
 
 
 > At lesson 5, so far, so good. It might be a little challenging to follow for someone who has never programmed before or used Emacs, but fortunately, that is not my situation. I saw some different perspectives on Lisp concepts that helped solidify certain things for me, so overall, it's been a good course so far. Looking forward to the CLOS module, and the extras, such as the web development tutorial link, were a welcome surprise to see here.
