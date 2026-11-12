@@ -60,7 +60,7 @@ The course is to my relief well received. You'll find more feedback below, here'
 
 > **[My employees] said you do a better job of teaching than Peter Seibel**.
 
-ebbzry, CEO of VedaInc, August 2025 on Discord. O_o 🔥
+Rommel Martinez, CEO of [VEDA Technologies, Inc.](https://veda-tech.com/en), August 2025 on Discord. O_o 🔥
 
 or again:
 
@@ -623,7 +623,7 @@ Douglas C, Feb. 2026
 >
 > **They said you do a better job of teaching than Peter Seibel**.
 
-ebbzry, CEO of VedaInc, August 2025 on Discord. O_o 🔥
+Rommel Martinez, CEO of [VEDA Technologies, Inc.](https://veda-tech.com/en), August 2025 on Discord. O_o 🔥
 
 > Your course is what really helped me tie together all the core concepts of Lisp.  Before your course all of my Lisp knowledge was random bits of information that wasn't tied together. It took me a while to start to see what is going on and why and your course brought everything together nicely.  As a side note, I used to think that CLOS was some kind of magic until I took your course and you made it so simple.
 
